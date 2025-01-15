@@ -1,0 +1,8 @@
+2025-01-16 00:52:27,286 - __mp_main__ - INFO - [ml.py:69] - Environment variables loaded from .env.local
+2025-01-16 00:52:27,286 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-16 00:52:27,286 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-16 00:52:27,286 - __mp_main__ - INFO - [ml.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 00:52:27,287 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:52:27,293 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 00:52:27,738 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 00:52:41,257 - livekit.agents - INFO - [worker.py:418] - shutting down worker

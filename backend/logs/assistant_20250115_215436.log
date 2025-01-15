@@ -1,0 +1,6 @@
+2025-01-15 21:54:36,434 - __main__ - INFO - [multi.py:498] - Environment variables loaded from .env.local
+2025-01-15 21:54:36,435 - __main__ - INFO - [multi.py:710] - ================================================================================
+2025-01-15 21:54:36,435 - __main__ - INFO - [multi.py:711] - STARTING APPLICATION
+2025-01-15 21:54:36,435 - __main__ - INFO - [multi.py:712] - ================================================================================
+2025-01-15 21:54:36,439 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 21:54:36,439 - livekit.agents - DEV - [watcher.py:84] - Watching /Users/manish/Desktop/Medical Multimodal Agent/backend

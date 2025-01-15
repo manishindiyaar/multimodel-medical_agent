@@ -1,0 +1,124 @@
+2025-01-16 00:05:21,914 - __mp_main__ - INFO - [multi.py:119] - Environment variables loaded from .env.local
+2025-01-16 00:05:21,914 - __mp_main__ - INFO - [multi.py:125] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-16 00:05:21,914 - __mp_main__ - INFO - [multi.py:125] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-16 00:05:21,914 - __mp_main__ - INFO - [multi.py:125] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 00:05:21,915 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 00:05:21,915 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 00:05:21,915 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:05:21,917 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-16 00:05:21,917 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: entrypoint
+2025-01-16 00:05:21,917 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-16 00:05:21,917 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: No keyword args
+2025-01-16 00:05:21,917 - __mp_main__ - INFO - [multi.py:234] - Starting application entrypoint
+2025-01-16 00:05:21,924 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 00:05:21,925 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 00:05:21,948 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 00:05:22,199 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 00:05:22,199 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 00:05:22,199 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 00:05:22,199 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 00:05:22,270 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 00:05:22,270 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 00:05:22,270 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 00:05:22,270 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 00:05:22,449 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 00:05:22,879 - __mp_main__ - INFO - [multi.py:236] - Connected to room: room-LX8D-ATYL
+2025-01-16 00:05:22,879 - __mp_main__ - INFO - [multi.py:239] - Initializing chat context
+2025-01-16 00:05:22,880 - __mp_main__ - INFO - [multi.py:254] - Initializing Azure GPT
+2025-01-16 00:05:22,890 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-16 00:05:22,891 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-16 00:05:22,898 - __mp_main__ - INFO - [multi.py:262] - Initializing Google AI
+2025-01-16 00:05:22,898 - __mp_main__ - INFO - [multi.py:267] - Setting up Voice Assistant
+2025-01-16 00:05:23,087 - __mp_main__ - INFO - [multi.py:280] - Chat manager initialized
+2025-01-16 00:05:23,088 - __mp_main__ - INFO - [multi.py:334] - Starting assistant
+2025-01-16 00:05:24,095 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-16 00:05:24,096 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: get_video_track
+2025-01-16 00:05:24,096 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-16 00:05:24,096 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: No keyword args
+2025-01-16 00:05:24,097 - __mp_main__ - INFO - [multi.py:216] - Searching for video track in room: room-LX8D-ATYL
+2025-01-16 00:05:24,097 - __mp_main__ - DEBUG - [multi.py:220] - Examining participant identity-Podb
+2025-01-16 00:05:24,098 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 00:05:25,586 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 00:05:29,864 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:05:29,867 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:05:29,867 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 00:05:40,241 - __mp_main__ - INFO - [multi.py:305] - Received message: r u able to see me ?
+2025-01-16 00:05:40,242 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-16 00:05:40,242 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: _answer
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: {'use_image': False}
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:285] - Generating answer for text: r u able to see me ?...
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:286] - Using image: False
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:293] - Updating chat context
+2025-01-16 00:05:40,243 - __mp_main__ - INFO - [multi.py:296] - Generating chat response
+2025-01-16 00:05:40,245 - __mp_main__ - INFO - [multi.py:298] - Delivering response through assistant
+2025-01-16 00:05:40,247 - __mp_main__ - INFO - [multi.py:105] - FUNCTION _answer completed successfully
+2025-01-16 00:05:40,248 - __mp_main__ - INFO - [multi.py:106] - Return value: None
+2025-01-16 00:05:40,248 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: _answer
+2025-01-16 00:05:40,248 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-16 00:05:40,358 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-16 00:05:40,823 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:05:40,828 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-16 00:05:41,925 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 00:05:41,925 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 00:05:42,516 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 00:05:42,516 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 00:05:43,852 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:05:43,853 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:05:43,853 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:05:43,854 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:910] - executing ai function
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: image
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: {'user_msg': 'Are you able to see me?'}
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:146] - Image function processing message: Are you able to see me?
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:105] - FUNCTION image completed successfully
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:106] - Return value: None
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: image
+2025-01-16 00:05:43,854 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-16 00:05:55,606 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 00:05:56,742 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:05:56,748 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}, {'role': 'user', 'content': 'Start patient detail edge contact.'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-16 00:05:56,801 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 00:05:56,802 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:05:56,802 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:05:56,806 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}, {'role': 'user', 'content': 'Start patient detail edge contact. Age contact.'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-16 00:05:56,807 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:05:58,168 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 00:05:58,169 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 00:05:59,184 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:05:59,184 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:06:05,333 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:06:05,339 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}, {'role': 'user', 'content': 'Start patient detail edge contact. Age contact.'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-16 00:06:06,779 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 00:06:06,779 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 00:06:07,023 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:06:07,024 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:06:10,951 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 00:06:11,452 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:06:11,460 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails....'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'r u able to see me ?'}]}, {'role': 'user', 'content': "Start patient detail edge contact. Age contact. We're"}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-16 00:06:12,850 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 00:06:12,850 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 00:06:13,262 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:06:13,262 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:06:31,416 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 00:06:31,487 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 00:06:31,493 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 00:06:31,551 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='job_user_entrypoint' coro=<entrypoint() running at /Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py:104> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_JobProc._run_job_task.<locals>.<lambda>() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:235, _JobProc._run_job_task.<locals>.log_exception() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:237]>
+2025-01-16 00:06:31,551 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: get_video_track
+2025-01-16 00:06:31,551 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-16 00:06:31,551 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: entrypoint
+2025-01-16 00:06:31,551 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-16 00:06:31,552 - asyncio - ERROR - [base_events.py:1785] - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/tts.py", line 310, in recv_task
+    msg = await ws.receive()
+          ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_websocket/reader_c.py", line 112, in read
+  File "aiohttp/_websocket/reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError

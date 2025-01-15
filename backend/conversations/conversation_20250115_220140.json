@@ -1,0 +1,19 @@
+{
+  "timestamp": "20250115_220140",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis."
+    },
+    {
+      "role": "assistant",
+      "content": " Hi there! I can help you with vision tasks and sending emails. How can I assist you?"
+    },
+    {
+      "role": "user",
+      "content": [
+        "send an email to manishindiyaar@gmail.com with body content Test "
+      ]
+    }
+  ]
+}

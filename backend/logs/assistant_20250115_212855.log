@@ -1,0 +1,159 @@
+2025-01-15 21:28:55,428 - __mp_main__ - INFO - [multi.py:69] - Environment variables loaded from .env.local
+2025-01-15 21:28:55,428 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-15 21:28:55,428 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-15 21:28:55,428 - __mp_main__ - INFO - [multi.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-15 21:28:55,429 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 21:28:55,429 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 21:28:55,429 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 21:28:55,431 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 21:28:55,431 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-15 21:28:55,431 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 21:28:55,431 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 21:28:55,431 - __mp_main__ - INFO - [multi.py:184] - Starting application entrypoint
+2025-01-15 21:28:55,440 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 21:28:55,440 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 21:28:55,457 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 21:28:55,706 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 21:28:55,706 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 21:28:55,706 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 21:28:55,706 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 21:28:55,781 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 21:28:55,782 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 21:28:55,782 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 21:28:55,783 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 21:28:55,949 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 21:28:56,328 - __mp_main__ - INFO - [multi.py:186] - Connected to room: playground-5OJD-HiyS
+2025-01-15 21:28:56,329 - __mp_main__ - INFO - [multi.py:188] - Initializing chat context
+2025-01-15 21:28:56,329 - __mp_main__ - INFO - [multi.py:203] - Initializing Azure GPT
+2025-01-15 21:28:56,336 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 21:28:56,337 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 21:28:56,344 - __mp_main__ - INFO - [multi.py:211] - Initializing Google AI
+2025-01-15 21:28:56,376 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 21:28:56,376 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 21:28:56,484 - __mp_main__ - INFO - [multi.py:216] - Setting up Voice Assistant
+2025-01-15 21:28:56,626 - __mp_main__ - INFO - [multi.py:229] - Chat manager initialized
+2025-01-15 21:28:56,626 - __mp_main__ - INFO - [multi.py:283] - Starting assistant
+2025-01-15 21:28:56,632 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 21:28:57,628 - __mp_main__ - INFO - [multi.py:291] - Getting video track
+2025-01-15 21:28:57,629 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 21:28:57,629 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-15 21:28:57,629 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 21:28:57,630 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 21:28:57,630 - __mp_main__ - INFO - [multi.py:166] - Searching for video track in room: playground-5OJD-HiyS
+2025-01-15 21:28:57,630 - __mp_main__ - DEBUG - [multi.py:170] - Examining participant identity-655Q
+2025-01-15 21:28:57,630 - __mp_main__ - DEBUG - [multi.py:172] - Checking track TR_AMjVx3mPJTakap
+2025-01-15 21:28:57,630 - __mp_main__ - DEBUG - [multi.py:172] - Checking track TR_VCUPVAowqZC2CZ
+2025-01-15 21:28:57,630 - __mp_main__ - INFO - [multi.py:176] - Found suitable video track: TR_VCUPVAowqZC2CZ
+2025-01-15 21:28:57,630 - __mp_main__ - INFO - [multi.py:55] - FUNCTION get_video_track completed successfully
+2025-01-15 21:28:57,630 - __mp_main__ - INFO - [multi.py:56] - Return value: rtc.RemoteVideoTrack(sid=TR_VCUPVAowqZC2CZ, name=)
+2025-01-15 21:28:57,631 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: get_video_track
+2025-01-15 21:28:57,631 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 21:28:57,631 - __mp_main__ - INFO - [multi.py:294] - Starting video stream processing
+2025-01-15 21:28:58,717 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:29:02,424 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-15 21:29:02,488 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails'}, {'role': 'user', 'content': ''}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-15 21:29:03,004 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:29:03,004 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:29:04,086 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:29:04,087 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:29:06,335 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:29:07,990 - __mp_main__ - INFO - [multi.py:254] - Received message: hii
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:234] - Generating answer for text: hii...
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:235] - Using image: False
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:242] - Updating chat context
+2025-01-15 21:29:07,991 - __mp_main__ - INFO - [multi.py:245] - Generating chat response
+2025-01-15 21:29:07,992 - __mp_main__ - INFO - [multi.py:247] - Delivering response through assistant
+2025-01-15 21:29:07,993 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 21:29:07,993 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 21:29:07,993 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 21:29:07,993 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 21:29:08,008 - google.auth.transport.requests - DEBUG - [_aiohttp_requests.py:185] - Making request: POST https://oauth2.googleapis.com/token
+2025-01-15 21:29:08,301 - livekit.agents.pipeline - ERROR - [log.py:21] - Error in _stream_synthesis_task
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/agent_output.py", line 273, in _stream_synthesis_task
+    async for seg in tts_source:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/aio/itertools.py", line 47, in tee_peer
+    item = await iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/pipeline_agent.py", line 1053, in _llm_stream_to_str_generator
+    async for chunk in stream:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/llm/llm.py", line 238, in __anext__
+    raise exc from None
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/llm/llm.py", line 149, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/openai/llm.py", line 700, in _run
+    await self._llm._client._refresh_credentials()
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/openai/llm.py", line 260, in _refresh_credentials
+    await self.creds.refresh(auth_req)
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_service_account_async.py", line 72, in refresh
+    access_token, expiry, _ = await _client_async.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client_async.py", line 168, in jwt_grant
+    response_data = await _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client_async.py", line 139, in _token_endpoint_request
+    client._handle_error_response(response_data, retryable_error)
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-01-15 21:29:08,523 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:29:08,524 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:29:14,879 - __mp_main__ - INFO - [multi.py:254] - Received message: how are u?
+2025-01-15 21:29:14,880 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 21:29:14,880 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 21:29:14,880 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 21:29:14,881 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 21:29:14,881 - __mp_main__ - INFO - [multi.py:234] - Generating answer for text: how are u?...
+2025-01-15 21:29:14,881 - __mp_main__ - INFO - [multi.py:235] - Using image: False
+2025-01-15 21:29:14,882 - __mp_main__ - INFO - [multi.py:242] - Updating chat context
+2025-01-15 21:29:14,882 - __mp_main__ - INFO - [multi.py:245] - Generating chat response
+2025-01-15 21:29:14,883 - __mp_main__ - INFO - [multi.py:247] - Delivering response through assistant
+2025-01-15 21:29:14,883 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 21:29:14,884 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 21:29:14,884 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 21:29:14,884 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 21:29:14,890 - google.auth.transport.requests - DEBUG - [_aiohttp_requests.py:185] - Making request: POST https://oauth2.googleapis.com/token
+2025-01-15 21:29:15,125 - livekit.agents.pipeline - ERROR - [log.py:21] - Error in _stream_synthesis_task
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/agent_output.py", line 273, in _stream_synthesis_task
+    async for seg in tts_source:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/aio/itertools.py", line 47, in tee_peer
+    item = await iterator.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/pipeline_agent.py", line 1053, in _llm_stream_to_str_generator
+    async for chunk in stream:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/llm/llm.py", line 238, in __anext__
+    raise exc from None
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/llm/llm.py", line 149, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/openai/llm.py", line 700, in _run
+    await self._llm._client._refresh_credentials()
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/openai/llm.py", line 260, in _refresh_credentials
+    await self.creds.refresh(auth_req)
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_service_account_async.py", line 72, in refresh
+    access_token, expiry, _ = await _client_async.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client_async.py", line 168, in jwt_grant
+    response_data = await _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client_async.py", line 139, in _token_endpoint_request
+    client._handle_error_response(response_data, retryable_error)
+  File "/opt/homebrew/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-01-15 21:29:15,128 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:30:44,919 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 21:30:44,975 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-15 21:30:44,988 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

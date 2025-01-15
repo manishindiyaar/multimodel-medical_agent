@@ -199,7 +199,6 @@ async def entrypoint(ctx: JobContext):
         ]
     )
 
-
     logger.info("Initializing Azure GPT")
     azuregpt = openai.LLM.with_azure(
         api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
@@ -243,7 +242,7 @@ async def entrypoint(ctx: JobContext):
         chat_context.messages.append(ChatMessage(role="user", content=content))
 
         logger.info("Generating chat response")
-        stream = google.chat(chat_ctx=chat_context)
+        stream = azuregpt.chat(chat_ctx=chat_context)
         logger.info("Delivering response through assistant")
         await assistant.say(stream, allow_interruptions=True)
 

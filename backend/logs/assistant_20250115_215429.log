@@ -1,0 +1,4 @@
+2025-01-15 21:54:29,594 - __mp_main__ - INFO - [multi.py:498] - Environment variables loaded from .env.local
+2025-01-15 21:54:29,595 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 21:54:29,600 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-15 21:54:29,822 - livekit.agents - INFO - [worker.py:418] - shutting down worker

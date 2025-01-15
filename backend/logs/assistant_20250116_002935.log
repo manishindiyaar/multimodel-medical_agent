@@ -1,0 +1,9 @@
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:69] - Environment variables loaded from .env.local
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:302] - ================================================================================
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:303] - STARTING APPLICATION
+2025-01-16 00:29:35,836 - __main__ - INFO - [ml.py:304] - ================================================================================
+2025-01-16 00:29:35,842 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:29:35,843 - livekit.agents - DEV - [watcher.py:84] - Watching /Users/manish/Desktop/Medical Multimodal Agent/backend

@@ -1,0 +1,52 @@
+2025-01-16 00:32:34,079 - __mp_main__ - INFO - [ml.py:69] - Environment variables loaded from .env.local
+2025-01-16 00:32:34,079 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-16 00:32:34,080 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-16 00:32:34,080 - __mp_main__ - INFO - [ml.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 00:32:34,081 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 00:32:34,082 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 00:32:34,082 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:32:34,089 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:32:34,089 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-16 00:32:34,089 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:32:34,090 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: No keyword args
+2025-01-16 00:32:34,090 - __mp_main__ - INFO - [ml.py:184] - Starting application entrypoint
+2025-01-16 00:32:34,091 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 00:32:34,092 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 00:32:34,100 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 00:32:34,337 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 00:32:34,337 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 00:32:34,337 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 00:32:34,337 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 00:32:34,399 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 00:32:34,399 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 00:32:34,400 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 00:32:34,400 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 00:32:34,552 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 00:32:34,865 - __mp_main__ - INFO - [ml.py:186] - Connected to room: playground-wLz1-xRBB
+2025-01-16 00:32:34,865 - __mp_main__ - INFO - [ml.py:188] - Initializing chat context
+2025-01-16 00:32:34,865 - __mp_main__ - INFO - [ml.py:202] - Initializing Azure GPT
+2025-01-16 00:32:34,868 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-16 00:32:34,868 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-16 00:32:34,875 - __mp_main__ - INFO - [ml.py:210] - Initializing Google AI
+2025-01-16 00:32:34,875 - __mp_main__ - INFO - [ml.py:215] - Setting up Voice Assistant
+2025-01-16 00:32:34,964 - __mp_main__ - INFO - [ml.py:228] - Chat manager initialized
+2025-01-16 00:32:34,964 - __mp_main__ - INFO - [ml.py:282] - Starting assistant
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:290] - Getting video track
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: No keyword args
+2025-01-16 00:32:35,966 - __mp_main__ - INFO - [ml.py:166] - Searching for video track in room: playground-wLz1-xRBB
+2025-01-16 00:32:35,966 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 00:32:54,036 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 00:32:54,038 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:683:tungstenite::protocol - Replying to close with Frame { header: FrameHeader { is_final: true, rsv1: false, rsv2: false, rsv3: false, opcode: Control(Close), mask: None }, payload: [3, 232] }
+2025-01-16 00:32:54,039 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "signal client closed: \"stream closed\"" UnknownReason Resume
+2025-01-16 00:32:54,041 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: RoomClosed
+2025-01-16 00:32:54,042 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 00:32:54,043 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 00:32:54,111 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='job_user_entrypoint' coro=<entrypoint() running at /Users/manish/Desktop/Medical Multimodal Agent/backend/ml.py:54> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_JobProc._run_job_task.<locals>.<lambda>() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:235, _JobProc._run_job_task.<locals>.log_exception() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:237]>
+2025-01-16 00:32:54,112 - __mp_main__ - INFO - [ml.py:62] - EXITING FUNCTION: get_video_track
+2025-01-16 00:32:54,112 - __mp_main__ - INFO - [ml.py:63] - ==================================================
+2025-01-16 00:32:54,112 - __mp_main__ - INFO - [ml.py:62] - EXITING FUNCTION: entrypoint
+2025-01-16 00:32:54,112 - __mp_main__ - INFO - [ml.py:63] - ==================================================

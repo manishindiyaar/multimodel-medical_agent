@@ -1,0 +1,281 @@
+2025-01-16 01:22:14,256 - __mp_main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:22:14,256 - __mp_main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:22:14,257 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:22:14,261 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 01:22:14,702 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 01:22:23,323 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-16 01:22:24,494 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:22:24,494 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:22:24,494 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:22:24,496 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:22:24,496 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:22:24,496 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:22:24,496 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:22:24,496 - __mp_main__ - INFO - [superagent.py:125] - Starting application entrypoint
+2025-01-16 01:22:24,506 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:22:24,507 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:22:24,519 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:22:24,766 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:22:24,766 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:22:24,766 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:22:24,766 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:22:24,829 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:22:24,830 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:22:24,830 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:22:24,830 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:22:24,980 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:22:25,432 - __mp_main__ - INFO - [superagent.py:127] - Connected to room: playground-qNUb-D4Uw
+2025-01-16 01:22:25,432 - __mp_main__ - INFO - [superagent.py:129] - Initializing chat context
+2025-01-16 01:22:25,445 - __mp_main__ - INFO - [superagent.py:172] - Setting up Voice Assistant
+2025-01-16 01:22:25,538 - __mp_main__ - INFO - [superagent.py:185] - Chat manager initialized
+2025-01-16 01:22:25,539 - __mp_main__ - INFO - [superagent.py:233] - Starting assistant
+2025-01-16 01:22:25,558 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:22:26,540 - __mp_main__ - INFO - [superagent.py:241] - Getting video track
+2025-01-16 01:22:26,540 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:22:26,541 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:22:26,541 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:22:26,541 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:22:26,541 - __mp_main__ - INFO - [superagent.py:107] - Searching for video track in room: playground-qNUb-D4Uw
+2025-01-16 01:22:26,541 - __mp_main__ - DEBUG - [superagent.py:111] - Examining participant identity-RmWV
+2025-01-16 01:22:26,542 - __mp_main__ - DEBUG - [superagent.py:113] - Checking track TR_AMtSxrdX5xEaR4
+2025-01-16 01:22:26,542 - __mp_main__ - DEBUG - [superagent.py:113] - Checking track TR_VCovwzkwZFqugX
+2025-01-16 01:22:26,542 - __mp_main__ - INFO - [superagent.py:117] - Found suitable video track: TR_VCovwzkwZFqugX
+2025-01-16 01:22:26,542 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION get_video_track completed successfully
+2025-01-16 01:22:26,542 - __mp_main__ - INFO - [superagent.py:54] - Return value: rtc.RemoteVideoTrack(sid=TR_VCovwzkwZFqugX, name=)
+2025-01-16 01:22:26,543 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: get_video_track
+2025-01-16 01:22:26,543 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:22:26,543 - __mp_main__ - INFO - [superagent.py:244] - Starting video stream processing
+2025-01-16 01:22:27,803 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:22:31,406 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:22:31,406 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:22:37,288 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:22:37,555 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:22:41,097 - __mp_main__ - INFO - [superagent.py:210] - Received message: i m having headache
+2025-01-16 01:22:41,097 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:22:41,097 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:22:41,097 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: i m having headache...
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:22:41,098 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:22:41,099 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:22:41,099 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:22:41,099 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:22:41,099 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:22:41,169 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:22:41,336 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 01:22:41,339 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:22:47,428 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:22:47,643 - asyncio - ERROR - [base_events.py:1785] - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/tts.py", line 310, in recv_task
+    msg = await ws.receive()
+          ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_websocket/reader_c.py", line 112, in read
+  File "aiohttp/_websocket/reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+2025-01-16 01:22:49,525 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 01:22:49,526 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:01,501 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:23:01,503 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:23:01,525 - asyncio - ERROR - [base_events.py:1785] - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/tts.py", line 310, in recv_task
+    msg = await ws.receive()
+          ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_websocket/reader_c.py", line 112, in read
+  File "aiohttp/_websocket/reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+2025-01-16 01:23:04,848 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:23:04,987 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 01:23:04,993 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:05,902 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:23:05,903 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:23:05,912 - asyncio - ERROR - [base_events.py:1785] - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/tts.py", line 310, in recv_task
+    msg = await ws.receive()
+          ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_websocket/reader_c.py", line 112, in read
+  File "aiohttp/_websocket/reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+2025-01-16 01:23:07,575 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 01:23:07,576 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:10,419 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:23:10,798 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:23:10,808 - asyncio - ERROR - [base_events.py:1785] - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/tts.py", line 280, in _run_segments
+    async for word in word_stream:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/tokenize/token_stream.py", line 108, in __anext__
+    return await self._event_ch.__anext__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/aio/channel.py", line 173, in __anext__
+    return await self.recv()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/aio/channel.py", line 103, in recv
+    await g
+asyncio.exceptions.CancelledError
+2025-01-16 01:23:13,760 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:23:17,168 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:17,169 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:23:31,086 - __mp_main__ - INFO - [superagent.py:210] - Received message: vomiting
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: vomiting...
+2025-01-16 01:23:31,088 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:23:31,089 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:23:31,089 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:23:31,089 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:23:31,089 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:23:31,090 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:23:31,090 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:23:31,090 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:23:34,572 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:23:36,759 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:36,760 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:23:43,737 - __mp_main__ - INFO - [superagent.py:210] - Received message: yesterday
+2025-01-16 01:23:43,738 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:23:43,738 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:23:43,738 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:23:43,739 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:23:43,739 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: yesterday...
+2025-01-16 01:23:43,739 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:23:43,739 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:23:43,740 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:23:43,740 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:23:43,740 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:23:43,740 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:23:43,741 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:23:43,741 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:23:46,797 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:23:50,935 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:23:50,937 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:210] - Received message: no it is worst
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: no it is worst...
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:24:00,469 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:24:00,470 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:24:00,470 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:24:00,470 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:24:00,470 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:24:00,470 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:24:03,717 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:24:07,620 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:24:07,622 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:24:09,475 - __mp_main__ - INFO - [superagent.py:210] - Received message: yes
+2025-01-16 01:24:09,475 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: yes...
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:24:09,476 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:24:12,408 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:24:16,219 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:24:16,220 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:24:18,716 - __mp_main__ - INFO - [superagent.py:210] - Received message: no
+2025-01-16 01:24:18,716 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:24:18,717 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:24:18,717 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:24:18,717 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:24:18,717 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: no...
+2025-01-16 01:24:18,717 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:24:18,718 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:24:18,718 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:24:18,718 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:24:18,718 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:24:18,718 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:24:18,719 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:24:18,719 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:24:21,850 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:24:23,490 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:24:23,491 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:24:27,622 - __mp_main__ - INFO - [superagent.py:210] - Received message: no
+2025-01-16 01:24:27,622 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:24:27,622 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: no...
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:24:27,623 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:24:30,542 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:24:35,634 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:24:35,635 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:24:48,040 - __mp_main__ - INFO - [superagent.py:210] - Received message: yes alcohol
+2025-01-16 01:24:48,041 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:24:48,041 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:24:48,041 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:24:48,041 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:24:48,041 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: yes alcohol...
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:24:48,042 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:24:48,043 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:24:48,043 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:24:51,336 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:25:10,405 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:25:10,406 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:26:33,073 - __mp_main__ - INFO - [superagent.py:210] - Received message: can you see my head 
+2025-01-16 01:26:33,076 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:26:33,076 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: _answer
+2025-01-16 01:26:33,077 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:26:33,077 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:26:33,077 - __mp_main__ - INFO - [superagent.py:190] - Generating answer for text: can you see my head ...
+2025-01-16 01:26:33,077 - __mp_main__ - INFO - [superagent.py:191] - Using image: False
+2025-01-16 01:26:33,077 - __mp_main__ - INFO - [superagent.py:198] - Updating chat context
+2025-01-16 01:26:33,078 - __mp_main__ - INFO - [superagent.py:201] - Generating chat response
+2025-01-16 01:26:33,079 - __mp_main__ - INFO - [superagent.py:203] - Delivering response through assistant
+2025-01-16 01:26:33,081 - __mp_main__ - INFO - [superagent.py:53] - FUNCTION _answer completed successfully
+2025-01-16 01:26:33,082 - __mp_main__ - INFO - [superagent.py:54] - Return value: None
+2025-01-16 01:26:33,082 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: _answer
+2025-01-16 01:26:33,082 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:26:36,419 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:26:52,598 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:26:52,600 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:28:35,932 - livekit.agents - INFO - [worker.py:418] - shutting down worker
+2025-01-16 01:28:35,935 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:28:35,940 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-16 01:28:35,991 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:28:36,008 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: ClientInitiated
+2025-01-16 01:28:36,009 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

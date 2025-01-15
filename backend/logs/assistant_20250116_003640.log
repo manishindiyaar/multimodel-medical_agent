@@ -1,0 +1,96 @@
+2025-01-16 00:36:40,789 - __mp_main__ - INFO - [ml.py:69] - Environment variables loaded from .env.local
+2025-01-16 00:36:40,789 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-16 00:36:40,789 - __mp_main__ - INFO - [ml.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-16 00:36:40,789 - __mp_main__ - INFO - [ml.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 00:36:40,790 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:36:40,796 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 00:36:41,467 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 00:36:44,594 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-16 00:36:46,002 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 00:36:46,002 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 00:36:46,002 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 00:36:46,003 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:36:46,004 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-16 00:36:46,004 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:36:46,004 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: No keyword args
+2025-01-16 00:36:46,004 - __mp_main__ - INFO - [ml.py:184] - Starting application entrypoint
+2025-01-16 00:36:46,013 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 00:36:46,013 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 00:36:46,031 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 00:36:46,324 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 00:36:46,324 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 00:36:46,325 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 00:36:46,325 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 00:36:46,376 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 00:36:46,376 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 00:36:46,376 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 00:36:46,376 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 00:36:46,521 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 00:36:46,844 - __mp_main__ - INFO - [ml.py:186] - Connected to room: playground-fqiq-hCLB
+2025-01-16 00:36:46,845 - __mp_main__ - INFO - [ml.py:188] - Initializing chat context
+2025-01-16 00:36:46,845 - __mp_main__ - INFO - [ml.py:202] - Initializing Azure GPT
+2025-01-16 00:36:46,864 - __mp_main__ - INFO - [ml.py:210] - Initializing Google AI
+2025-01-16 00:36:46,864 - __mp_main__ - INFO - [ml.py:215] - Setting up Voice Assistant
+2025-01-16 00:36:46,978 - __mp_main__ - INFO - [ml.py:228] - Chat manager initialized
+2025-01-16 00:36:46,978 - __mp_main__ - INFO - [ml.py:282] - Starting assistant
+2025-01-16 00:36:46,979 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 00:36:47,979 - __mp_main__ - INFO - [ml.py:290] - Getting video track
+2025-01-16 00:36:47,979 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:36:47,979 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-16 00:36:47,979 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:36:47,979 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: No keyword args
+2025-01-16 00:36:47,980 - __mp_main__ - INFO - [ml.py:166] - Searching for video track in room: playground-fqiq-hCLB
+2025-01-16 00:36:47,980 - __mp_main__ - DEBUG - [ml.py:170] - Examining participant identity-z735
+2025-01-16 00:36:47,980 - __mp_main__ - DEBUG - [ml.py:172] - Checking track TR_AMSKkVzSg6iHa9
+2025-01-16 00:36:47,980 - __mp_main__ - DEBUG - [ml.py:172] - Checking track TR_VCMwfmkn9zrUaB
+2025-01-16 00:36:47,981 - __mp_main__ - INFO - [ml.py:176] - Found suitable video track: TR_VCMwfmkn9zrUaB
+2025-01-16 00:36:47,981 - __mp_main__ - INFO - [ml.py:55] - FUNCTION get_video_track completed successfully
+2025-01-16 00:36:47,981 - __mp_main__ - INFO - [ml.py:56] - Return value: rtc.RemoteVideoTrack(sid=TR_VCMwfmkn9zrUaB, name=)
+2025-01-16 00:36:47,982 - __mp_main__ - INFO - [ml.py:62] - EXITING FUNCTION: get_video_track
+2025-01-16 00:36:47,986 - __mp_main__ - INFO - [ml.py:63] - ==================================================
+2025-01-16 00:36:47,986 - __mp_main__ - INFO - [ml.py:293] - Starting video stream processing
+2025-01-16 00:36:48,006 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-16 00:36:48,007 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:36:51,413 - __mp_main__ - INFO - [ml.py:253] - Received message: hii
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: _answer
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:233] - Generating answer for text: hii...
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:234] - Using image: False
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:241] - Updating chat context
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:244] - Generating chat response
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:246] - Delivering response through assistant
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:55] - FUNCTION _answer completed successfully
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:56] - Return value: None
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:62] - EXITING FUNCTION: _answer
+2025-01-16 00:36:51,414 - __mp_main__ - INFO - [ml.py:63] - ==================================================
+2025-01-16 00:36:54,425 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 00:36:55,086 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 00:36:56,483 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:36:56,484 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 00:36:57,017 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 00:36:59,076 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:36:59,077 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 00:37:00,971 - __mp_main__ - INFO - [ml.py:253] - Received message: are u able to see me?
+2025-01-16 00:37:00,971 - __mp_main__ - INFO - [ml.py:48] - ==================================================
+2025-01-16 00:37:00,971 - __mp_main__ - INFO - [ml.py:49] - ENTERING FUNCTION: _answer
+2025-01-16 00:37:00,971 - __mp_main__ - INFO - [ml.py:50] - Arguments: No positional args
+2025-01-16 00:37:00,971 - __mp_main__ - INFO - [ml.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-16 00:37:00,972 - __mp_main__ - INFO - [ml.py:233] - Generating answer for text: are u able to see me?...
+2025-01-16 00:37:00,972 - __mp_main__ - INFO - [ml.py:234] - Using image: False
+2025-01-16 00:37:00,972 - __mp_main__ - INFO - [ml.py:241] - Updating chat context
+2025-01-16 00:37:00,972 - __mp_main__ - INFO - [ml.py:244] - Generating chat response
+2025-01-16 00:37:00,973 - __mp_main__ - INFO - [ml.py:246] - Delivering response through assistant
+2025-01-16 00:37:00,973 - __mp_main__ - INFO - [ml.py:55] - FUNCTION _answer completed successfully
+2025-01-16 00:37:00,973 - __mp_main__ - INFO - [ml.py:56] - Return value: None
+2025-01-16 00:37:00,973 - __mp_main__ - INFO - [ml.py:62] - EXITING FUNCTION: _answer
+2025-01-16 00:37:00,973 - __mp_main__ - INFO - [ml.py:63] - ==================================================
+2025-01-16 00:37:03,324 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 00:37:07,100 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 00:37:07,100 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 00:37:48,614 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 00:37:48,618 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-16 00:37:48,617 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 00:37:48,621 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 00:52:25,577 - livekit.agents - INFO - [worker.py:418] - shutting down worker

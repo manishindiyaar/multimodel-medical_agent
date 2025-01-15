@@ -1,0 +1,113 @@
+2025-01-15 21:49:57,353 - __mp_main__ - INFO - [multi.py:119] - Environment variables loaded from .env.local
+2025-01-15 21:49:57,353 - __mp_main__ - INFO - [multi.py:125] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-15 21:49:57,353 - __mp_main__ - INFO - [multi.py:125] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-15 21:49:57,353 - __mp_main__ - INFO - [multi.py:125] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-15 21:49:57,354 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 21:49:57,354 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 21:49:57,354 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 21:49:57,358 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-15 21:49:57,358 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: entrypoint
+2025-01-15 21:49:57,358 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-15 21:49:57,358 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: No keyword args
+2025-01-15 21:49:57,358 - __mp_main__ - INFO - [multi.py:234] - Starting application entrypoint
+2025-01-15 21:49:57,365 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 21:49:57,365 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 21:49:57,383 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 21:49:57,744 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 21:49:57,745 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 21:49:57,745 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 21:49:57,745 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 21:49:57,810 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 21:49:57,811 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 21:49:57,811 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 21:49:57,811 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 21:49:57,962 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 21:49:58,474 - __mp_main__ - INFO - [multi.py:236] - Connected to room: playground-eU6p-op3D
+2025-01-15 21:49:58,474 - __mp_main__ - INFO - [multi.py:239] - Initializing chat context
+2025-01-15 21:49:58,475 - __mp_main__ - INFO - [multi.py:254] - Initializing Azure GPT
+2025-01-15 21:49:58,489 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 21:49:58,490 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 21:49:58,497 - __mp_main__ - INFO - [multi.py:262] - Initializing Google AI
+2025-01-15 21:49:58,497 - __mp_main__ - INFO - [multi.py:267] - Setting up Voice Assistant
+2025-01-15 21:49:58,661 - __mp_main__ - INFO - [multi.py:280] - Chat manager initialized
+2025-01-15 21:49:58,661 - __mp_main__ - INFO - [multi.py:334] - Starting assistant
+2025-01-15 21:49:58,663 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 21:49:59,663 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-15 21:49:59,663 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: get_video_track
+2025-01-15 21:49:59,664 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-15 21:49:59,664 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: No keyword args
+2025-01-15 21:49:59,664 - __mp_main__ - INFO - [multi.py:216] - Searching for video track in room: playground-eU6p-op3D
+2025-01-15 21:49:59,664 - __mp_main__ - DEBUG - [multi.py:220] - Examining participant identity-mYVc
+2025-01-15 21:49:59,664 - __mp_main__ - DEBUG - [multi.py:222] - Checking track TR_AMkzAfa2CjNoWh
+2025-01-15 21:49:59,664 - __mp_main__ - DEBUG - [multi.py:222] - Checking track TR_VC2tA4j9hLksRh
+2025-01-15 21:49:59,664 - __mp_main__ - INFO - [multi.py:226] - Found suitable video track: TR_VC2tA4j9hLksRh
+2025-01-15 21:49:59,664 - __mp_main__ - INFO - [multi.py:105] - FUNCTION get_video_track completed successfully
+2025-01-15 21:49:59,665 - __mp_main__ - INFO - [multi.py:106] - Return value: rtc.RemoteVideoTrack(sid=TR_VC2tA4j9hLksRh, name=)
+2025-01-15 21:49:59,665 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: get_video_track
+2025-01-15 21:49:59,665 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-15 21:50:00,956 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:50:05,243 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:50:05,244 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:50:09,568 - __mp_main__ - INFO - [multi.py:305] - Received message: hey how r u?
+2025-01-15 21:50:09,570 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-15 21:50:09,570 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: _answer
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: {'use_image': False}
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:285] - Generating answer for text: hey how r u?...
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:286] - Using image: False
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:293] - Updating chat context
+2025-01-15 21:50:09,571 - __mp_main__ - INFO - [multi.py:296] - Generating chat response
+2025-01-15 21:50:09,572 - __mp_main__ - INFO - [multi.py:298] - Delivering response through assistant
+2025-01-15 21:50:09,572 - __mp_main__ - INFO - [multi.py:105] - FUNCTION _answer completed successfully
+2025-01-15 21:50:09,573 - __mp_main__ - INFO - [multi.py:106] - Return value: None
+2025-01-15 21:50:09,573 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: _answer
+2025-01-15 21:50:09,573 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-15 21:50:09,629 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hey how r u?'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:50:11,172 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:50:11,173 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:50:12,733 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:50:17,834 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:50:17,836 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:50:17,877 - __mp_main__ - INFO - [multi.py:305] - Received message: hope u r doing well
+2025-01-15 21:50:17,877 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: _answer
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: {'use_image': False}
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:285] - Generating answer for text: hope u r doing well...
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:286] - Using image: False
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:293] - Updating chat context
+2025-01-15 21:50:17,878 - __mp_main__ - INFO - [multi.py:296] - Generating chat response
+2025-01-15 21:50:17,879 - __mp_main__ - INFO - [multi.py:298] - Delivering response through assistant
+2025-01-15 21:50:17,880 - __mp_main__ - INFO - [multi.py:105] - FUNCTION _answer completed successfully
+2025-01-15 21:50:17,880 - __mp_main__ - INFO - [multi.py:106] - Return value: None
+2025-01-15 21:50:17,880 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: _answer
+2025-01-15 21:50:17,880 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-15 21:50:17,894 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hey how r u?'}]}, {'role': 'assistant', 'content': " I'm just a bot, so I don't experience feelings, but thanks for asking! How can I help you today?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hope u r doing well'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:50:19,255 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:50:19,255 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:50:20,775 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:50:22,999 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:50:22,999 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:50:31,348 - __mp_main__ - INFO - [multi.py:305] - Received message: actually thank u?
+2025-01-15 21:50:31,349 - __mp_main__ - INFO - [multi.py:98] - ==================================================
+2025-01-15 21:50:31,349 - __mp_main__ - INFO - [multi.py:99] - ENTERING FUNCTION: _answer
+2025-01-15 21:50:31,350 - __mp_main__ - INFO - [multi.py:100] - Arguments: No positional args
+2025-01-15 21:50:31,350 - __mp_main__ - INFO - [multi.py:101] - Keyword Arguments: {'use_image': False}
+2025-01-15 21:50:31,350 - __mp_main__ - INFO - [multi.py:285] - Generating answer for text: actually thank u?...
+2025-01-15 21:50:31,351 - __mp_main__ - INFO - [multi.py:286] - Using image: False
+2025-01-15 21:50:31,351 - __mp_main__ - INFO - [multi.py:293] - Updating chat context
+2025-01-15 21:50:31,351 - __mp_main__ - INFO - [multi.py:296] - Generating chat response
+2025-01-15 21:50:31,352 - __mp_main__ - INFO - [multi.py:298] - Delivering response through assistant
+2025-01-15 21:50:31,353 - __mp_main__ - INFO - [multi.py:105] - FUNCTION _answer completed successfully
+2025-01-15 21:50:31,353 - __mp_main__ - INFO - [multi.py:106] - Return value: None
+2025-01-15 21:50:31,353 - __mp_main__ - INFO - [multi.py:112] - EXITING FUNCTION: _answer
+2025-01-15 21:50:31,354 - __mp_main__ - INFO - [multi.py:113] - ==================================================
+2025-01-15 21:50:31,364 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hey how r u?'}]}, {'role': 'assistant', 'content': " I'm just a bot, so I don't experience feelings, but thanks for asking! How can I help you today?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hope u r doing well'}]}, {'role': 'assistant', 'content': ' I appreciate it! How can I assist you today?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'actually thank u?'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:50:32,856 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:50:32,856 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:50:34,652 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:50:38,648 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:50:38,649 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:51:01,165 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-15 21:51:01,167 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 21:51:01,169 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

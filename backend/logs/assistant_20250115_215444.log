@@ -1,0 +1,96 @@
+2025-01-15 21:54:44,054 - __mp_main__ - INFO - [multi.py:498] - Environment variables loaded from .env.local
+2025-01-15 21:54:44,055 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 21:54:44,055 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 21:54:44,055 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 21:54:44,056 - __mp_main__ - INFO - [multi.py:477] - ==================================================
+2025-01-15 21:54:44,057 - __mp_main__ - INFO - [multi.py:478] - ENTERING FUNCTION: entrypoint
+2025-01-15 21:54:44,057 - __mp_main__ - INFO - [multi.py:479] - Arguments: No positional args
+2025-01-15 21:54:44,057 - __mp_main__ - INFO - [multi.py:480] - Keyword Arguments: No keyword args
+2025-01-15 21:54:44,057 - __mp_main__ - INFO - [multi.py:592] - Starting application entrypoint
+2025-01-15 21:54:44,066 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 21:54:44,066 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 21:54:44,082 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 21:54:44,436 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 21:54:44,436 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 21:54:44,436 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 21:54:44,436 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 21:54:44,599 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 21:54:44,600 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 21:54:44,600 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 21:54:44,600 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 21:54:44,944 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 21:54:46,471 - __mp_main__ - INFO - [multi.py:594] - Connected to room: playground-6q48-ehXV
+2025-01-15 21:54:46,480 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 21:54:46,481 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 21:54:46,597 - __mp_main__ - INFO - [multi.py:689] - Starting assistant
+2025-01-15 21:54:47,328 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:477] - ==================================================
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:478] - ENTERING FUNCTION: get_video_track
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:479] - Arguments: No positional args
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:480] - Keyword Arguments: No keyword args
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:576] - Searching for video track in room: playground-6q48-ehXV
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:584] - Found suitable video track: TR_VCmvbMs8GrLnu5
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:484] - FUNCTION get_video_track completed successfully
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:485] - Return value: rtc.RemoteVideoTrack(sid=TR_VCmvbMs8GrLnu5, name=)
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:491] - EXITING FUNCTION: get_video_track
+2025-01-15 21:54:47,598 - __mp_main__ - INFO - [multi.py:492] - ==================================================
+2025-01-15 21:54:48,992 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:54:53,535 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:54:53,535 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:54:54,236 - __mp_main__ - INFO - [multi.py:656] - Received message: his 
+2025-01-15 21:54:54,236 - __mp_main__ - INFO - [multi.py:636] - Generating answer for text: his ...
+2025-01-15 21:54:54,238 - __mp_main__ - INFO - [multi.py:447] - Conversation saved to conversations/conversation_20250115_215454.json
+2025-01-15 21:54:54,238 - __mp_main__ - ERROR - [multi.py:650] - Failed to save conversation: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py", line 648, in _answer
+    await chat_logger.save_conversation(chat_context)
+TypeError: object str can't be used in 'await' expression
+2025-01-15 21:54:54,330 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'his '}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:54:56,728 - __mp_main__ - INFO - [multi.py:656] - Received message: hii
+2025-01-15 21:54:56,728 - __mp_main__ - INFO - [multi.py:636] - Generating answer for text: hii...
+2025-01-15 21:54:56,729 - __mp_main__ - INFO - [multi.py:447] - Conversation saved to conversations/conversation_20250115_215456.json
+2025-01-15 21:54:56,729 - __mp_main__ - ERROR - [multi.py:650] - Failed to save conversation: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py", line 648, in _answer
+    await chat_logger.save_conversation(chat_context)
+TypeError: object str can't be used in 'await' expression
+2025-01-15 21:54:56,734 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'his '}]}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hii'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:54:57,501 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:54:57,501 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:54:58,653 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:54:58,654 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:54:59,724 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:55:01,812 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:55:01,813 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:55:11,198 - __mp_main__ - INFO - [multi.py:656] - Received message: how r u?
+2025-01-15 21:55:11,199 - __mp_main__ - INFO - [multi.py:636] - Generating answer for text: how r u?...
+2025-01-15 21:55:11,200 - __mp_main__ - INFO - [multi.py:447] - Conversation saved to conversations/conversation_20250115_215511.json
+2025-01-15 21:55:11,200 - __mp_main__ - ERROR - [multi.py:650] - Failed to save conversation: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py", line 648, in _answer
+    await chat_logger.save_conversation(chat_context)
+TypeError: object str can't be used in 'await' expression
+2025-01-15 21:55:11,220 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'his '}]}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hii'}]}, {'role': 'assistant', 'content': ' Hello! What can I help you with today?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'how r u?'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:55:12,973 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:55:12,974 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:55:15,793 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:55:21,178 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:55:21,180 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:56:00,643 - __mp_main__ - INFO - [multi.py:656] - Received message: great
+2025-01-15 21:56:00,644 - __mp_main__ - INFO - [multi.py:636] - Generating answer for text: great...
+2025-01-15 21:56:00,646 - __mp_main__ - INFO - [multi.py:447] - Conversation saved to conversations/conversation_20250115_215600.json
+2025-01-15 21:56:00,646 - __mp_main__ - ERROR - [multi.py:650] - Failed to save conversation: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py", line 648, in _answer
+    await chat_logger.save_conversation(chat_context)
+TypeError: object str can't be used in 'await' expression
+2025-01-15 21:56:00,663 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'his '}]}, {'role': 'user', 'content': [{'type': 'text', 'text': 'hii'}]}, {'role': 'assistant', 'content': ' Hello! What can I help you with today?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'how r u?'}]}, {'role': 'assistant', 'content': " I'm just a bot, so I don't have feelings, but thanks for asking! How about you? How can I assist you today?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'great'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 21:56:02,136 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 21:56:02,137 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 21:56:03,823 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 21:56:06,207 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 21:56:06,208 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 21:57:31,518 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 21:57:31,605 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-15 21:57:31,619 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: ClientInitiated
+2025-01-15 21:57:31,619 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

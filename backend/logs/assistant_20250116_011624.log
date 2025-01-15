@@ -1,0 +1,51 @@
+2025-01-16 01:16:24,339 - __mp_main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:16:24,339 - __mp_main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:16:24,340 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:16:24,343 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 01:16:24,719 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 01:16:33,966 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-16 01:16:35,232 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:16:35,232 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:16:35,232 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:125] - Starting application entrypoint
+2025-01-16 01:16:35,242 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:16:35,243 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:16:35,261 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:16:35,491 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:16:35,491 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:16:35,492 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:16:35,492 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:16:35,549 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:16:35,702 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:16:36,078 - __mp_main__ - INFO - [superagent.py:127] - Connected to room: playground-b0Av-Z9Gv
+2025-01-16 01:16:36,079 - __mp_main__ - INFO - [superagent.py:129] - Initializing chat context
+2025-01-16 01:16:36,094 - __mp_main__ - INFO - [superagent.py:168] - Setting up Voice Assistant
+2025-01-16 01:16:36,191 - __mp_main__ - INFO - [superagent.py:181] - Chat manager initialized
+2025-01-16 01:16:36,191 - __mp_main__ - INFO - [superagent.py:229] - Starting assistant
+2025-01-16 01:16:37,193 - __mp_main__ - INFO - [superagent.py:237] - Getting video track
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:16:37,195 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:16:37,195 - __mp_main__ - INFO - [superagent.py:107] - Searching for video track in room: playground-b0Av-Z9Gv
+2025-01-16 01:16:37,195 - __mp_main__ - DEBUG - [superagent.py:111] - Examining participant identity-EHJ7
+2025-01-16 01:16:37,195 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:16:38,506 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:16:42,995 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:16:42,996 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:16:51,315 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:16:54,894 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:17:02,524 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:17:02,526 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:18:30,972 - livekit.agents - INFO - [worker.py:418] - shutting down worker
+2025-01-16 01:18:30,974 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:18:30,978 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-16 01:18:31,032 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:18:31,044 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

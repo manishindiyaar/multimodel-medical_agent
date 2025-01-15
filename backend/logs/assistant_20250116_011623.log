@@ -1,0 +1,7 @@
+2025-01-16 01:16:23,516 - __main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:16:23,516 - __main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:16:23,517 - __main__ - INFO - [superagent.py:249] - ================================================================================
+2025-01-16 01:16:23,517 - __main__ - INFO - [superagent.py:250] - STARTING APPLICATION
+2025-01-16 01:16:23,517 - __main__ - INFO - [superagent.py:251] - ================================================================================
+2025-01-16 01:16:23,523 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:16:23,524 - livekit.agents - DEV - [watcher.py:84] - Watching /Users/manish/Desktop/Medical Multimodal Agent/backend

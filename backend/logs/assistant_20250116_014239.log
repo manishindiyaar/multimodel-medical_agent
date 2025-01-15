@@ -1,0 +1,61 @@
+2025-01-16 01:42:39,825 - __mp_main__ - INFO - [superagent.py:69] - Environment variables loaded from .env.local
+2025-01-16 01:42:39,825 - __mp_main__ - INFO - [superagent.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:42:39,826 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:42:39,831 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 01:42:40,208 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 01:42:41,882 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-16 01:42:43,099 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:42:43,099 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:42:43,100 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:42:43,101 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:42:43,101 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:42:43,101 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:42:43,101 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: No keyword args
+2025-01-16 01:42:43,101 - __mp_main__ - INFO - [superagent.py:127] - Starting application entrypoint
+2025-01-16 01:42:43,117 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:42:43,118 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:42:43,136 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:42:43,379 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:42:43,379 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:42:43,379 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:42:43,379 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:42:43,446 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:42:43,447 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:42:43,447 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:42:43,447 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:42:43,621 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:42:44,054 - __mp_main__ - INFO - [superagent.py:129] - Connected to room: playground-qcNF-mzzj
+2025-01-16 01:42:44,055 - __mp_main__ - INFO - [superagent.py:131] - Initializing chat context
+2025-01-16 01:42:44,067 - __mp_main__ - INFO - [superagent.py:296] - Setting up Voice Assistant
+2025-01-16 01:42:44,162 - __mp_main__ - INFO - [superagent.py:309] - Chat manager initialized
+2025-01-16 01:42:44,163 - __mp_main__ - INFO - [superagent.py:357] - Starting assistant
+2025-01-16 01:42:44,279 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:42:45,164 - __mp_main__ - INFO - [superagent.py:365] - Getting video track
+2025-01-16 01:42:45,164 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:42:45,164 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:42:45,164 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:42:45,164 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: No keyword args
+2025-01-16 01:42:45,165 - __mp_main__ - INFO - [superagent.py:109] - Searching for video track in room: playground-qcNF-mzzj
+2025-01-16 01:42:45,165 - __mp_main__ - DEBUG - [superagent.py:113] - Examining participant identity-9YiC
+2025-01-16 01:42:45,165 - __mp_main__ - DEBUG - [superagent.py:115] - Checking track TR_AM3JdqCmCuUEVd
+2025-01-16 01:42:45,165 - __mp_main__ - DEBUG - [superagent.py:115] - Checking track TR_VCYQDewqEwpsRA
+2025-01-16 01:42:45,165 - __mp_main__ - INFO - [superagent.py:119] - Found suitable video track: TR_VCYQDewqEwpsRA
+2025-01-16 01:42:45,165 - __mp_main__ - INFO - [superagent.py:55] - FUNCTION get_video_track completed successfully
+2025-01-16 01:42:45,165 - __mp_main__ - INFO - [superagent.py:56] - Return value: rtc.RemoteVideoTrack(sid=TR_VCYQDewqEwpsRA, name=)
+2025-01-16 01:42:45,165 - __mp_main__ - INFO - [superagent.py:62] - EXITING FUNCTION: get_video_track
+2025-01-16 01:42:45,166 - __mp_main__ - INFO - [superagent.py:63] - ==================================================
+2025-01-16 01:42:45,166 - __mp_main__ - INFO - [superagent.py:368] - Starting video stream processing
+2025-01-16 01:42:46,059 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:42:49,118 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:42:49,119 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:42:58,047 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:42:58,381 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:43:03,349 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:43:31,742 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:43:31,744 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:43:52,704 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:43:52,726 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: RoomClosed
+2025-01-16 01:43:52,728 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-16 01:43:52,727 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:43:52,728 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 01:46:03,126 - livekit.agents - INFO - [worker.py:418] - shutting down worker

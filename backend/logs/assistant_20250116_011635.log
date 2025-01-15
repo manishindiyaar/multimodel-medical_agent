@@ -1,0 +1,56 @@
+2025-01-16 01:16:35,231 - __mp_main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:16:35,231 - __mp_main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:16:35,232 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:16:35,232 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:16:35,232 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:16:35,233 - __mp_main__ - INFO - [superagent.py:125] - Starting application entrypoint
+2025-01-16 01:16:35,242 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:16:35,243 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:16:35,261 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:16:35,491 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:16:35,491 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:16:35,492 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:16:35,492 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:16:35,548 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:16:35,549 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:16:35,702 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:16:36,078 - __mp_main__ - INFO - [superagent.py:127] - Connected to room: playground-b0Av-Z9Gv
+2025-01-16 01:16:36,079 - __mp_main__ - INFO - [superagent.py:129] - Initializing chat context
+2025-01-16 01:16:36,086 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-16 01:16:36,086 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-16 01:16:36,094 - __mp_main__ - INFO - [superagent.py:168] - Setting up Voice Assistant
+2025-01-16 01:16:36,191 - __mp_main__ - INFO - [superagent.py:181] - Chat manager initialized
+2025-01-16 01:16:36,191 - __mp_main__ - INFO - [superagent.py:229] - Starting assistant
+2025-01-16 01:16:37,193 - __mp_main__ - INFO - [superagent.py:237] - Getting video track
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:16:37,194 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:16:37,195 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:16:37,195 - __mp_main__ - INFO - [superagent.py:107] - Searching for video track in room: playground-b0Av-Z9Gv
+2025-01-16 01:16:37,195 - __mp_main__ - DEBUG - [superagent.py:111] - Examining participant identity-EHJ7
+2025-01-16 01:16:37,195 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:16:38,506 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:16:42,995 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:16:42,996 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:16:51,315 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:16:51,419 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "\n   you  are philip , you are friendly health-care assistant at the Clinic. you are here to help you with patient  health concerns. Let's gather some important information of patient to better understand patient situation. like you can ask questions like “\n\n- What symptoms are you currently experiencing?\n- \u2060When did you first notice these symptoms?\n- Have your symptoms improved, worsened, or remained the same since they started?\n- Is there a family history of dental issues or related health concerns?\n- Are you currently taking any medications? If so, please list them.\n- Do you have any known allergies?\n- Do you use tobacco, alcohol, or any recreational drugs? If yes, please specify.”\n\nyou can Thank patient for providing this information! this will help you to understand patients needs better. Remember, while you can analyze medical images to provide preliminary assessments,you are  a professional in-person examination is always necessary. If there's anything else patient  like to share or if  patient have specific questions about your services, feel free to let mthem  know! If patient care needs are not urgent, please consider sending an image of the medical problem area so you can assist them  further. For thorough check-ups or any urgent attention required, you recommend booking an onsite appointment.\n\n\n"}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': ''}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}]}}
+2025-01-16 01:16:53,093 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 01:16:53,093 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 01:16:54,894 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:17:02,524 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:17:02,526 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:18:30,974 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:18:31,032 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:18:31,044 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 01:18:31,127 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='job_user_entrypoint' coro=<entrypoint() running at /Users/manish/Desktop/Medical Multimodal Agent/backend/superagent.py:52> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_JobProc._run_job_task.<locals>.<lambda>() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:235, _JobProc._run_job_task.<locals>.log_exception() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:237]>
+2025-01-16 01:18:31,127 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: get_video_track
+2025-01-16 01:18:31,127 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:18:31,127 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: entrypoint
+2025-01-16 01:18:31,127 - __mp_main__ - INFO - [superagent.py:61] - ==================================================

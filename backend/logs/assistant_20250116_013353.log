@@ -1,0 +1,6 @@
+2025-01-16 01:33:53,446 - __mp_main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:33:53,446 - __mp_main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:33:53,447 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:33:53,451 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-16 01:33:53,854 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-16 01:34:28,081 - livekit.agents - INFO - [worker.py:418] - shutting down worker

@@ -1,0 +1,89 @@
+2025-01-16 01:39:52,537 - __mp_main__ - INFO - [superagent.py:69] - Environment variables loaded from .env.local
+2025-01-16 01:39:52,537 - __mp_main__ - INFO - [superagent.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:39:52,537 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:39:52,538 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:39:52,538 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:39:52,539 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:39:52,539 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:39:52,539 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:39:52,539 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: No keyword args
+2025-01-16 01:39:52,539 - __mp_main__ - INFO - [superagent.py:127] - Starting application entrypoint
+2025-01-16 01:39:52,540 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:39:52,541 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:39:52,547 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:39:52,795 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:39:52,795 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:39:52,795 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:39:52,796 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:39:52,864 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:39:52,864 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:39:52,864 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:39:52,864 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:39:53,071 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:39:53,495 - __mp_main__ - INFO - [superagent.py:129] - Connected to room: playground-WVLj-1a6E
+2025-01-16 01:39:53,497 - __mp_main__ - INFO - [superagent.py:131] - Initializing chat context
+2025-01-16 01:39:53,514 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-16 01:39:53,514 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-16 01:39:53,526 - __mp_main__ - INFO - [superagent.py:156] - Setting up Voice Assistant
+2025-01-16 01:39:53,733 - __mp_main__ - INFO - [superagent.py:169] - Chat manager initialized
+2025-01-16 01:39:53,734 - __mp_main__ - INFO - [superagent.py:217] - Starting assistant
+2025-01-16 01:39:53,880 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:39:54,736 - __mp_main__ - INFO - [superagent.py:225] - Getting video track
+2025-01-16 01:39:54,736 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:39:54,737 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:39:54,737 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:39:54,737 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: No keyword args
+2025-01-16 01:39:54,737 - __mp_main__ - INFO - [superagent.py:109] - Searching for video track in room: playground-WVLj-1a6E
+2025-01-16 01:39:54,738 - __mp_main__ - DEBUG - [superagent.py:113] - Examining participant identity-55vx
+2025-01-16 01:39:54,738 - __mp_main__ - DEBUG - [superagent.py:115] - Checking track TR_AMC4EvFqDFhUBJ
+2025-01-16 01:39:54,738 - __mp_main__ - DEBUG - [superagent.py:115] - Checking track TR_VCes6kBp8QKW6i
+2025-01-16 01:39:54,738 - __mp_main__ - INFO - [superagent.py:119] - Found suitable video track: TR_VCes6kBp8QKW6i
+2025-01-16 01:39:54,739 - __mp_main__ - INFO - [superagent.py:55] - FUNCTION get_video_track completed successfully
+2025-01-16 01:39:54,739 - __mp_main__ - INFO - [superagent.py:56] - Return value: rtc.RemoteVideoTrack(sid=TR_VCes6kBp8QKW6i, name=)
+2025-01-16 01:39:54,739 - __mp_main__ - INFO - [superagent.py:62] - EXITING FUNCTION: get_video_track
+2025-01-16 01:39:54,739 - __mp_main__ - INFO - [superagent.py:63] - ==================================================
+2025-01-16 01:39:54,740 - __mp_main__ - INFO - [superagent.py:228] - Starting video stream processing
+2025-01-16 01:39:55,864 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:40:00,158 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:40:00,158 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:40:07,965 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-16 01:40:08,343 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-16 01:40:08,609 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are have Assstant which can chat see wheneevr needed'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': 'Are you able to see me?'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}]}}
+2025-01-16 01:40:10,497 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 01:40:10,497 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 01:40:11,470 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:40:11,470 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:910] - executing ai function
+2025-01-16 01:40:11,470 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: image
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: {'user_msg': 'Are you able to see me?'}
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:96] - Image function processing message: Are you able to see me?
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:55] - FUNCTION image completed successfully
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:56] - Return value: None
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:62] - EXITING FUNCTION: image
+2025-01-16 01:40:11,471 - __mp_main__ - INFO - [superagent.py:63] - ==================================================
+2025-01-16 01:40:29,413 - __mp_main__ - INFO - [superagent.py:194] - Received message: what u are seeing?
+2025-01-16 01:40:29,415 - __mp_main__ - INFO - [superagent.py:48] - ==================================================
+2025-01-16 01:40:29,415 - __mp_main__ - INFO - [superagent.py:49] - ENTERING FUNCTION: _answer
+2025-01-16 01:40:29,415 - __mp_main__ - INFO - [superagent.py:50] - Arguments: No positional args
+2025-01-16 01:40:29,415 - __mp_main__ - INFO - [superagent.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-16 01:40:29,415 - __mp_main__ - INFO - [superagent.py:174] - Generating answer for text: what u are seeing?...
+2025-01-16 01:40:29,416 - __mp_main__ - INFO - [superagent.py:175] - Using image: False
+2025-01-16 01:40:29,416 - __mp_main__ - INFO - [superagent.py:182] - Updating chat context
+2025-01-16 01:40:29,416 - __mp_main__ - INFO - [superagent.py:185] - Generating chat response
+2025-01-16 01:40:29,416 - __mp_main__ - INFO - [superagent.py:187] - Delivering response through assistant
+2025-01-16 01:40:29,417 - __mp_main__ - INFO - [superagent.py:55] - FUNCTION _answer completed successfully
+2025-01-16 01:40:29,417 - __mp_main__ - INFO - [superagent.py:56] - Return value: None
+2025-01-16 01:40:29,417 - __mp_main__ - INFO - [superagent.py:62] - EXITING FUNCTION: _answer
+2025-01-16 01:40:29,417 - __mp_main__ - INFO - [superagent.py:63] - ==================================================
+2025-01-16 01:40:29,430 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are have Assstant which can chat see wheneevr needed'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': 'Are you able to see me?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u are seeing?'}]}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-16 01:40:30,928 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-16 01:40:30,928 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-16 01:40:33,023 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-16 01:40:41,977 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-16 01:40:41,981 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-16 01:41:08,730 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:41:08,735 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:683:tungstenite::protocol - Replying to close with Frame { header: FrameHeader { is_final: true, rsv1: false, rsv2: false, rsv3: false, opcode: Control(Close), mask: None }, payload: [3, 232] }
+2025-01-16 01:41:08,735 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:41:08,737 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "signal client closed: \"stream closed\"" UnknownReason Resume
+2025-01-16 01:41:08,741 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

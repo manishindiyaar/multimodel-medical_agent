@@ -1,0 +1,46 @@
+2025-01-16 01:18:34,121 - __mp_main__ - INFO - [superagent.py:67] - Environment variables loaded from .env.local
+2025-01-16 01:18:34,121 - __mp_main__ - INFO - [superagent.py:73] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-16 01:18:34,122 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-16 01:18:34,122 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-16 01:18:34,122 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-16 01:18:34,123 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:18:34,123 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: entrypoint
+2025-01-16 01:18:34,123 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:18:34,123 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:18:34,123 - __mp_main__ - INFO - [superagent.py:125] - Starting application entrypoint
+2025-01-16 01:18:34,125 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-16 01:18:34,125 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-16 01:18:34,131 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-16 01:18:35,405 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-16 01:18:35,406 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-16 01:18:35,406 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-16 01:18:35,406 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-16 01:18:35,470 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-16 01:18:35,471 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-16 01:18:35,471 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-16 01:18:35,471 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-16 01:18:35,627 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-16 01:18:35,947 - __mp_main__ - INFO - [superagent.py:127] - Connected to room: playground-b0Av-Z9Gv
+2025-01-16 01:18:35,947 - __mp_main__ - INFO - [superagent.py:129] - Initializing chat context
+2025-01-16 01:18:35,950 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-16 01:18:35,951 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-16 01:18:35,957 - __mp_main__ - INFO - [superagent.py:168] - Setting up Voice Assistant
+2025-01-16 01:18:36,037 - __mp_main__ - INFO - [superagent.py:181] - Chat manager initialized
+2025-01-16 01:18:36,038 - __mp_main__ - INFO - [superagent.py:229] - Starting assistant
+2025-01-16 01:18:37,120 - __mp_main__ - INFO - [superagent.py:237] - Getting video track
+2025-01-16 01:18:37,121 - __mp_main__ - INFO - [superagent.py:46] - ==================================================
+2025-01-16 01:18:37,122 - __mp_main__ - INFO - [superagent.py:47] - ENTERING FUNCTION: get_video_track
+2025-01-16 01:18:37,123 - __mp_main__ - INFO - [superagent.py:48] - Arguments: No positional args
+2025-01-16 01:18:37,123 - __mp_main__ - INFO - [superagent.py:49] - Keyword Arguments: No keyword args
+2025-01-16 01:18:37,123 - __mp_main__ - INFO - [superagent.py:107] - Searching for video track in room: playground-b0Av-Z9Gv
+2025-01-16 01:18:37,124 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-16 01:18:53,739 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-16 01:18:53,741 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: RoomClosed
+2025-01-16 01:18:53,741 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-16 01:18:53,741 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-16 01:18:53,800 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: get_video_track
+2025-01-16 01:18:53,800 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
+2025-01-16 01:18:53,800 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='job_user_entrypoint' coro=<entrypoint() running at /Users/manish/Desktop/Medical Multimodal Agent/backend/superagent.py:52> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_JobProc._run_job_task.<locals>.<lambda>() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:235, _JobProc._run_job_task.<locals>.log_exception() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:237]>
+2025-01-16 01:18:53,800 - __mp_main__ - INFO - [superagent.py:60] - EXITING FUNCTION: entrypoint
+2025-01-16 01:18:53,800 - __mp_main__ - INFO - [superagent.py:61] - ==================================================
