@@ -8,3 +8,14 @@ https://sanava-ai.com/resource-hub/
 https://spencerporter2.medium.com/building-ai-agent-tools-using-openai-and-python-ec02084ef8ab
 
 
+Send this email to manishindiyaar@gmail.com  with the subject “Patient Consultation Request” and body “
+
+Dear Dr. Jeel Soni,
+
+This email is to request a consultation for Shardul Narvekar, who is experiencing severe headache and persistent vomiting.
+
+During our conversation, Shardul Narvekar described that the headache has been continuous for the past few hours, accompanied by multiple episodes of vomiting.
+
+Shardul Narvekar is available for a consultation at your earliest convenience today.
+
+Thank you for your time and attention to this matter. ”
