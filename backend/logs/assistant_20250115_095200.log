@@ -1,0 +1,8 @@
+2025-01-15 09:52:00,061 - __main__ - INFO - Environment variables loaded
+2025-01-15 09:52:00,065 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-01-15 09:52:00,066 - livekit.agents - DEV - Watching /Users/manish/Desktop/Medical Multimodal Agent/backend
+2025-01-15 09:52:00,973 - __mp_main__ - INFO - Environment variables loaded
+2025-01-15 09:52:00,974 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-01-15 09:52:00,976 - livekit.agents - INFO - starting worker
+2025-01-15 09:52:03,354 - livekit.agents - INFO - registered worker
+2025-01-15 10:00:17,219 - livekit.agents - INFO - shutting down worker

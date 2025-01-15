@@ -1,0 +1,8 @@
+2025-01-15 09:43:13,304 - __mp_main__ - INFO - Environment variables loaded from .env.local
+2025-01-15 09:43:13,304 - __mp_main__ - INFO - Environment variable MAIL_DEFAULT_SENDER is set
+2025-01-15 09:43:13,304 - __mp_main__ - INFO - Environment variable MAIL_DEFAULT_SENDER_NAME is set
+2025-01-15 09:43:13,304 - __mp_main__ - INFO - Environment variable AZURE_OPENAI_ENDPOINT is set
+2025-01-15 09:43:13,304 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-01-15 09:43:13,307 - livekit.agents - INFO - starting worker
+2025-01-15 09:43:13,664 - livekit.agents - INFO - registered worker
+2025-01-15 09:49:19,741 - livekit.agents - INFO - shutting down worker

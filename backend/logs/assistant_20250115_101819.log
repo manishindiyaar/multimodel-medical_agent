@@ -1,0 +1,316 @@
+2025-01-15 10:18:19,098 - __mp_main__ - INFO - [multi.py:69] - Environment variables loaded from .env.local
+2025-01-15 10:18:19,098 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-15 10:18:19,098 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-15 10:18:19,098 - __mp_main__ - INFO - [multi.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-15 10:18:19,100 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 10:18:19,100 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 10:18:19,101 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 10:18:19,106 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:18:19,106 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-15 10:18:19,106 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:18:19,107 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 10:18:19,107 - __mp_main__ - INFO - [multi.py:184] - Starting application entrypoint
+2025-01-15 10:18:19,112 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 10:18:19,113 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 10:18:19,122 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 10:18:19,806 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 10:18:19,806 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 10:18:19,806 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 10:18:19,806 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 10:18:19,866 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 10:18:19,866 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 10:18:19,866 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 10:18:19,866 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 10:18:20,032 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 10:18:20,454 - __mp_main__ - INFO - [multi.py:186] - Connected to room: playground-DwBW-zbaQ
+2025-01-15 10:18:20,454 - __mp_main__ - INFO - [multi.py:188] - Initializing chat context
+2025-01-15 10:18:20,454 - __mp_main__ - INFO - [multi.py:202] - Initializing Azure GPT
+2025-01-15 10:18:20,457 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 10:18:20,458 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 10:18:20,467 - __mp_main__ - INFO - [multi.py:210] - Initializing Google AI
+2025-01-15 10:18:20,491 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 10:18:20,491 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 10:18:20,585 - __mp_main__ - INFO - [multi.py:215] - Setting up Voice Assistant
+2025-01-15 10:18:20,696 - __mp_main__ - INFO - [multi.py:228] - Chat manager initialized
+2025-01-15 10:18:20,696 - __mp_main__ - INFO - [multi.py:282] - Starting assistant
+2025-01-15 10:18:20,698 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 10:18:21,698 - __mp_main__ - INFO - [multi.py:290] - Getting video track
+2025-01-15 10:18:21,698 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:18:21,699 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-15 10:18:21,699 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:18:21,699 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 10:18:21,699 - __mp_main__ - INFO - [multi.py:166] - Searching for video track in room: playground-DwBW-zbaQ
+2025-01-15 10:18:21,699 - __mp_main__ - DEBUG - [multi.py:170] - Examining participant identity-UAJi
+2025-01-15 10:18:21,700 - __mp_main__ - DEBUG - [multi.py:172] - Checking track TR_VCxs8kA744h7BV
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:176] - Found suitable video track: TR_VCxs8kA744h7BV
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:55] - FUNCTION get_video_track completed successfully
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:56] - Return value: rtc.RemoteVideoTrack(sid=TR_VCxs8kA744h7BV, name=)
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: get_video_track
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:18:21,700 - __mp_main__ - INFO - [multi.py:293] - Starting video stream processing
+2025-01-15 10:18:22,814 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:18:27,104 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:18:27,105 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:18:40,925 - __mp_main__ - INFO - [multi.py:253] - Received message: Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subjec...
+2025-01-15 10:18:40,927 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:18:40,928 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:18:40,928 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:18:40,929 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:18:40,930 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:18:40,930 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:18:40,930 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:18:40,930 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:18:40,942 - google.auth.transport.requests - DEBUG - [_aiohttp_requests.py:185] - Making request: POST https://oauth2.googleapis.com/token
+2025-01-15 10:18:41,484 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:18:43,802 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:18:43,802 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:18:46,169 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:18:53,765 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:18:53,766 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:21:05,978 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-15 10:21:05,980 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-15 10:21:05,998 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': 'I think with this TV, what'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-15 10:21:07,884 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-15 10:21:07,885 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-15 10:21:07,886 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-15 10:21:07,887 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:07,900 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': 'I think with this TV, what looking at me.'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-15 10:21:10,003 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-15 10:21:10,004 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-15 10:21:10,005 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-15 10:21:10,007 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:10,018 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at?'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-15 10:21:10,604 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:605] - received user transcript
+2025-01-15 10:21:10,605 - livekit.agents.pipeline - DEBUG - [agent_output.py:82] - agent interrupted
+2025-01-15 10:21:10,605 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:1134] - validated agent reply
+2025-01-15 10:21:10,608 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'api-key': '5w1sFUVVhOwUvD3ih8hpzTavKssX7eUmsJmPNtsbmJcdl0BYPobZJQQJ99AKACHrzpqXJ3w3AAABACOGXiw3'}, 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}], 'model': 'gpt-4', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None, 'tool_choice': 'auto', 'tools': [{'type': 'function', 'function': {'name': 'image', 'description': 'Called when asked to evaluate something that would require vision capabilities,for example, an image, video, or the webcam feed.', 'parameters': {'type': 'object', 'properties': {'user_msg': {'description': 'The user message that triggered this function', 'type': 'string'}}, 'required': ['user_msg']}}}, {'type': 'function', 'function': {'name': 'send_email', 'description': 'Send an email to a specified address with the given content and subject', 'parameters': {'type': 'object', 'properties': {'to_email': {'description': 'The email address to send to', 'type': 'string'}, 'body_content': {'description': 'The content/body of the email', 'type': 'string'}, 'subject': {'description': 'The subject line of the email', 'type': 'string'}}, 'required': ['to_email', 'body_content', 'subject']}}}]}}
+2025-01-15 10:21:10,609 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:13,582 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "HTTP/1.1 200 OK"
+2025-01-15 10:21:13,582 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://sbl-gpt-giveaway.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview "200 OK"
+2025-01-15 10:21:14,243 - __mp_main__ - INFO - [multi.py:253] - Received message: what u r seeing?
+2025-01-15 10:21:14,244 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:21:14,244 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:21:14,244 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:21:14,244 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:21:14,244 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: what u r seeing?...
+2025-01-15 10:21:14,245 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:21:14,245 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:21:14,245 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:21:14,245 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:21:14,246 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:21:14,246 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:21:14,246 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:21:14,246 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:21:14,254 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:21:14,587 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:14,587 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:910] - executing ai function
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: image
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'user_msg': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:96] - Image function processing message: I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:55] - FUNCTION image completed successfully
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:21:14,588 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: image
+2025-01-15 10:21:14,589 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:21:16,403 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:21:16,404 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:21:19,619 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:21:23,325 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:23,326 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:21:53,319 - __mp_main__ - INFO - [multi.py:253] - Received message: what i m wearing in my head
+2025-01-15 10:21:53,321 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:21:53,322 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:21:53,322 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:21:53,322 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:21:53,323 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: what i m wearing in my head...
+2025-01-15 10:21:53,323 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:21:53,323 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:21:53,323 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:21:53,324 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:21:53,325 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:21:53,325 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:21:53,325 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:21:53,325 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:21:53,338 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}, {'role': 'assistant', 'content': " I'm seeing you, and whatever is in your camera view. Pretty neat, huh?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what i m wearing in my head'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:21:54,016 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:21:54,017 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:21:56,096 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:21:58,920 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:21:58,920 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:22:15,112 - __mp_main__ - INFO - [multi.py:253] - Received message: what s the color of my t shirt?
+2025-01-15 10:22:15,114 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:22:15,114 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:22:15,114 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:22:15,114 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:22:15,115 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: what s the color of my t shirt?...
+2025-01-15 10:22:15,115 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:22:15,115 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:22:15,115 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:22:15,117 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:22:15,118 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:22:15,118 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:22:15,118 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:22:15,119 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:22:15,137 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}, {'role': 'assistant', 'content': " I'm seeing you, and whatever is in your camera view. Pretty neat, huh?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what i m wearing in my head'}]}, {'role': 'assistant', 'content': " Looks like you've got a stylish pair of headphones on your head."}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what s the color of my t shirt?'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:22:17,023 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:22:17,023 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:22:19,256 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:22:21,499 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:22:21,500 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:22:44,041 - __mp_main__ - INFO - [multi.py:253] - Received message: what's the background of mine?
+2025-01-15 10:22:44,042 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:22:44,042 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:22:44,042 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:22:44,042 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:22:44,042 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: what's the background of mine?...
+2025-01-15 10:22:44,043 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:22:44,043 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:22:44,043 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:22:44,043 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:22:44,044 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:22:44,044 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:22:44,044 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:22:44,044 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:22:44,061 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}, {'role': 'assistant', 'content': " I'm seeing you, and whatever is in your camera view. Pretty neat, huh?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what i m wearing in my head'}]}, {'role': 'assistant', 'content': " Looks like you've got a stylish pair of headphones on your head."}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what s the color of my t shirt?'}]}, {'role': 'assistant', 'content': " That's a classic black t-shirt you're rocking."}, {'role': 'user', 'content': [{'type': 'text', 'text': "what's the background of mine?"}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:22:44,657 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:22:44,658 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:22:46,241 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:22:50,911 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:22:50,911 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:23:02,089 - __mp_main__ - INFO - [multi.py:253] - Received message: now tell me wher i m?
+2025-01-15 10:23:02,091 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:23:02,092 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:23:02,092 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:23:02,093 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:23:02,093 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: now tell me wher i m?...
+2025-01-15 10:23:02,093 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:23:02,093 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:23:02,093 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:23:02,094 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:23:02,094 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:23:02,095 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:23:02,095 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:23:02,095 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:23:02,116 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}, {'role': 'assistant', 'content': " I'm seeing you, and whatever is in your camera view. Pretty neat, huh?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what i m wearing in my head'}]}, {'role': 'assistant', 'content': " Looks like you've got a stylish pair of headphones on your head."}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what s the color of my t shirt?'}]}, {'role': 'assistant', 'content': " That's a classic black t-shirt you're rocking."}, {'role': 'user', 'content': [{'type': 'text', 'text': "what's the background of mine?"}]}, {'role': 'assistant', 'content': " Looks like you've got a wall with a TV on it in the background. Pretty standard for a cool hangout!"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'now tell me wher i m?'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:23:02,802 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:23:02,803 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:23:04,885 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:23:12,470 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:23:12,471 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:23:26,687 - __mp_main__ - INFO - [multi.py:253] - Received message: what r u seeing?
+2025-01-15 10:23:26,689 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:23:26,689 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: _answer
+2025-01-15 10:23:26,689 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: {'use_image': False}
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:233] - Generating answer for text: what r u seeing?...
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:234] - Using image: False
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:241] - Updating chat context
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:244] - Generating chat response
+2025-01-15 10:23:26,690 - __mp_main__ - INFO - [multi.py:246] - Delivering response through assistant
+2025-01-15 10:23:26,691 - __mp_main__ - INFO - [multi.py:55] - FUNCTION _answer completed successfully
+2025-01-15 10:23:26,692 - __mp_main__ - INFO - [multi.py:56] - Return value: None
+2025-01-15 10:23:26,692 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: _answer
+2025-01-15 10:23:26,692 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 10:23:26,712 - openai._base_client - DEBUG - [_base_client.py:446] - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Your name is Alloy. You are a funny, witty bot. Your interface with users will be voice and vision. You can also send emails when requested. When sending emails, make them professional and concise. Respond with short and concise answers. Avoid using unpronouncable punctuation or emojis.'}, {'role': 'assistant', 'content': ' Hi there! I can help you with vision tasks and sending emails. How can I assist you?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'Send an email to manishindiyaar@gmail.com with Body content Dear Manish Hope r doing well and subject Test'}]}, {'role': 'assistant', 'content': ' ```  To: manishindiyaar@gmail.com  Subject: Test   Dear Manish,   Hope r doing well. ```   Email sent! Is there anything else?'}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what u r seeing?'}]}, {'role': 'user', 'content': 'I think with this TV, what looking at me. Are you able to see what you are looking at? My ad?'}, {'role': 'assistant', 'content': " I'm seeing you, and whatever is in your camera view. Pretty neat, huh?"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what i m wearing in my head'}]}, {'role': 'assistant', 'content': " Looks like you've got a stylish pair of headphones on your head."}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what s the color of my t shirt?'}]}, {'role': 'assistant', 'content': " That's a classic black t-shirt you're rocking."}, {'role': 'user', 'content': [{'type': 'text', 'text': "what's the background of mine?"}]}, {'role': 'assistant', 'content': " Looks like you've got a wall with a TV on it in the background. Pretty standard for a cool hangout!"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'now tell me wher i m?'}]}, {'role': 'assistant', 'content': " Based on what I'm seeing, it looks like you're in a room with a TV and a wall. But, like, I don't have GPS, you know? You'll have to tell me the specifics!"}, {'role': 'user', 'content': [{'type': 'text', 'text': 'what r u seeing?'}]}], 'model': 'google/gemini-2.0-flash-exp', 'n': 1, 'stream': True, 'stream_options': {'include_usage': True}, 'temperature': None}}
+2025-01-15 10:23:27,319 - httpx._client - DEBUG - [_client.py:1734] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "HTTP/1.1 200 OK"
+2025-01-15 10:23:27,320 - openai._base_client - DEBUG - [_base_client.py:1600] - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/nomadic-asset-447711-a2/locations/us-central1/endpoints/openapi/chat/completions "200 OK"
+2025-01-15 10:23:29,308 - livekit.agents.pipeline - DEBUG - [agent_playout.py:139] - speech playout started
+2025-01-15 10:23:38,722 - livekit.agents.pipeline - DEBUG - [agent_playout.py:178] - speech playout finished
+2025-01-15 10:23:38,724 - livekit.agents.pipeline - DEBUG - [pipeline_agent.py:864] - committed agent speech
+2025-01-15 10:39:25,789 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "signal client closed: \"ping timeout\"" UnknownReason Resume
+2025-01-15 10:39:25,867 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 0
+2025-01-15 10:39:26,176 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine::rtc_session:575:livekit::rtc_engine::rtc_session - Subscriber pc state failed
+2025-01-15 10:39:26,177 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "pc_state failed" UnknownReason Resume
+2025-01-15 10:39:29,474 - livekit.agents - WARNING - [stt.py:224] - failed to recognize speech, retrying in 5.0s
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/stt/stt.py", line 215, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/stt.py", line 507, in _run
+    task.result()
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/stt.py", line 474, in recv_task
+    raise APIStatusError(
+livekit.agents._exceptions.APIStatusError: deepgram connection closed unexpectedly
+2025-01-15 10:39:34,508 - livekit.agents.pipeline - ERROR - [log.py:21] - Error in _recognize_task
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/log.py", line 16, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/human_input.py", line 150, in _recognize_task
+    await asyncio.gather(*tasks)
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/pipeline/human_input.py", line 136, in _stt_stream_co
+    async for ev in stt_stream:
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/stt/stt.py", line 315, in __anext__
+    raise exc from None
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/stt/stt.py", line 215, in _main_task
+    return await self._run()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/stt.py", line 491, in _run
+    ws = await self._connect_ws()
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/plugins/deepgram/stt.py", line 541, in _connect_ws
+    ws = await asyncio.wait_for(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client.py", line 1412, in throw
+    return self._coro.throw(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/aiohttp/connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.deepgram.com:443 ssl:default [Could not contact DNS servers]
+2025-01-15 10:39:40,885 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine::rtc_session:575:livekit::rtc_engine::rtc_session - Publisher pc state failed
+2025-01-15 10:39:40,885 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "pc_state failed" UnknownReason Resume
+2025-01-15 10:43:24,195 - livekit - ERROR - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:192:livekit_api::signal_client::signal_stream - unhandled websocket message Err(Io(Os { code: 60, kind: TimedOut, message: "Operation timed out" }))
+2025-01-15 10:43:24,197 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,199 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,199 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 1
+2025-01-15 10:43:24,200 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,200 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,200 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 2
+2025-01-15 10:43:24,201 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,202 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,202 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 3
+2025-01-15 10:43:24,202 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,203 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,203 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 4
+2025-01-15 10:43:24,203 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,203 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,204 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 5
+2025-01-15 10:43:24,204 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,204 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,204 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 6
+2025-01-15 10:43:24,204 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,205 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,205 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 7
+2025-01-15 10:43:24,205 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,205 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,205 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 8
+2025-01-15 10:43:24,206 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,206 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,206 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 9
+2025-01-15 10:43:24,206 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&reconnect=1&sid=PA_8QWJbu49pptc&access_token=...
+2025-01-15 10:43:24,207 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:694:livekit::rtc_engine - resuming connection failed: signal failure: ws failure: IO error: failed to lookup address information: nodename nor servname provided, or not known
+2025-01-15 10:43:24,208 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:626:livekit::rtc_engine - failed to reconnect to the livekit room
+2025-01-15 10:43:24,220 - livekit - INFO - [_ffi_client.py:164] - livekit::room:1142:livekit::room - disconnected from room with reason: UnknownReason
+2025-01-15 10:43:24,221 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 10:43:24,222 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx

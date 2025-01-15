@@ -1,0 +1,7 @@
+2025-01-15 09:43:12,549 - __main__ - INFO - Environment variables loaded from .env.local
+2025-01-15 09:43:12,549 - __main__ - INFO - Environment variable MAIL_DEFAULT_SENDER is set
+2025-01-15 09:43:12,549 - __main__ - INFO - Environment variable MAIL_DEFAULT_SENDER_NAME is set
+2025-01-15 09:43:12,549 - __main__ - INFO - Environment variable AZURE_OPENAI_ENDPOINT is set
+2025-01-15 09:43:12,549 - __main__ - INFO - Starting application
+2025-01-15 09:43:12,554 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-01-15 09:43:12,554 - livekit.agents - DEV - Watching /Users/manish/Desktop/Medical Multimodal Agent/backend

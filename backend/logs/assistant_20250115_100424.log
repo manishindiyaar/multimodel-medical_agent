@@ -1,0 +1,121 @@
+2025-01-15 10:04:24,736 - __mp_main__ - INFO - [multi.py:69] - Environment variables loaded from .env.local
+2025-01-15 10:04:24,736 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-15 10:04:24,736 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-15 10:04:24,736 - __mp_main__ - INFO - [multi.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-15 10:04:24,737 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 10:04:24,740 - livekit.agents - INFO - [worker.py:322] - starting worker
+2025-01-15 10:04:38,336 - livekit.agents - INFO - [worker.py:630] - registered worker
+2025-01-15 10:04:43,592 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-15 10:04:45,628 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 10:04:45,628 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 10:04:45,629 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 10:04:45,631 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:04:45,631 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-15 10:04:45,631 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:04:45,631 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 10:04:45,631 - __mp_main__ - INFO - [multi.py:184] - Starting application entrypoint
+2025-01-15 10:04:45,633 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 10:04:45,633 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 10:04:45,640 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 10:04:47,717 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 10:04:47,717 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 10:04:47,717 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 10:04:47,717 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 10:04:48,358 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 10:04:48,359 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 10:04:48,359 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 10:04:48,360 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 10:04:50,620 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 10:04:52,653 - __mp_main__ - INFO - [multi.py:186] - Connected to room: playground-H3hC-d6Bj
+2025-01-15 10:04:52,654 - __mp_main__ - INFO - [multi.py:188] - Initializing chat context
+2025-01-15 10:04:52,654 - __mp_main__ - INFO - [multi.py:202] - Initializing Azure GPT
+2025-01-15 10:04:52,663 - __mp_main__ - INFO - [multi.py:210] - Initializing Google AI
+2025-01-15 10:04:52,771 - __mp_main__ - INFO - [multi.py:215] - Setting up Voice Assistant
+2025-01-15 10:04:52,862 - __mp_main__ - INFO - [multi.py:228] - Chat manager initialized
+2025-01-15 10:04:52,863 - __mp_main__ - INFO - [multi.py:282] - Starting assistant
+2025-01-15 10:04:53,864 - __mp_main__ - INFO - [multi.py:290] - Getting video track
+2025-01-15 10:04:53,865 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:04:53,865 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-15 10:04:53,865 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:04:53,865 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 10:04:53,865 - __mp_main__ - INFO - [multi.py:166] - Searching for video track in room: playground-H3hC-d6Bj
+2025-01-15 10:04:53,866 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 10:05:41,716 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-15 10:05:41,718 - livekit.agents - INFO - [worker.py:703] - received job request
+2025-01-15 10:05:43,689 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 10:05:43,689 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 10:05:43,689 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 10:05:43,690 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 10:05:43,690 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-15 10:05:43,690 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 10:05:43,690 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 10:05:43,690 - __mp_main__ - INFO - [multi.py:184] - Starting application entrypoint
+2025-01-15 10:05:43,695 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 10:05:43,695 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 10:05:43,712 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 10:05:44,124 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 10:05:44,125 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 10:05:44,125 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 10:05:44,125 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 10:05:46,007 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 10:05:46,008 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 10:05:46,008 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 10:05:46,008 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 10:05:48,657 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 10:05:49,221 - livekit.agents - WARNING - [worker.py:684] - assignment for job AJ_F3qpEsNWUomt timed out
+2025-01-15 10:05:49,222 - livekit.agents - ERROR - [worker.py:719] - job_request_fnc failed
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/worker.py", line 682, in _on_accept
+    await asyncio.wait_for(wait_assignment, ASSIGNMENT_TIMEOUT)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/worker.py", line 717, in _job_request_task
+    await self._opts.request_fnc(job_req)
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/worker.py", line 68, in _default_request_fnc
+    await ctx.accept()
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/job.py", line 361, in accept
+    await self._on_accept(accept_arguments)
+  File "/opt/homebrew/lib/python3.11/site-packages/livekit/agents/worker.py", line 688, in _on_accept
+    raise AssignmentTimeoutError()
+livekit.agents._exceptions.AssignmentTimeoutError
+2025-01-15 10:05:53,698 - livekit.agents - WARNING - [job_proc_lazy_main.py:227] - The room connection was not established within 10 seconds after calling job_entry. This may indicate that job_ctx.connect() was not called. 
+2025-01-15 10:05:59,432 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-15 10:05:59,433 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:683:tungstenite::protocol - Replying to close with Frame { header: FrameHeader { is_final: true, rsv1: false, rsv2: false, rsv3: false, opcode: Control(Close), mask: None }, payload: [3, 232] }
+2025-01-15 10:05:59,434 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite:355:tokio_tungstenite - websocket start_send error: WebSocket protocol error: Sending after closing is not allowed
+2025-01-15 10:05:59,434 - livekit - ERROR - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:150:livekit_api::signal_client::signal_stream - failed to send pong message: Protocol(SendAfterClosing)
+2025-01-15 10:06:03,679 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:378:livekit::rtc_engine - failed to connect: Connection("wait_pc_connection timed out"), retrying... (1/3)
+2025-01-15 10:06:03,682 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 10:06:15,737 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 10:06:15,743 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 10:06:15,743 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 10:06:15,743 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 10:06:27,344 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 10:06:27,346 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 10:06:27,347 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 10:06:27,347 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 10:07:21,830 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 10:07:29,413 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "signal client closed: \"ping timeout\"" UnknownReason Resume
+2025-01-15 10:07:29,415 - livekit - ERROR - [_ffi_client.py:164] - livekit::rtc_engine:692:livekit::rtc_engine - resuming connection... attempt: 0
+2025-01-15 10:07:36,847 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:378:livekit::rtc_engine - failed to connect: Connection("wait_pc_connection timed out"), retrying... (2/3)
+2025-01-15 10:07:36,851 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 10:07:44,047 - livekit.agents - INFO - [worker.py:418] - shutting down worker
+2025-01-15 10:07:44,049 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 10:07:44,060 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-15 10:07:44,063 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-15 10:07:44,063 - livekit.agents - INFO - [supervised_proc.py:302] - process exiting
+2025-01-15 10:07:44,051 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 10:07:44,060 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 10:07:48,634 - livekit.agents - WARNING - [cli.py:293] - exiting forcefully

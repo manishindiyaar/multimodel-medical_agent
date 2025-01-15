@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nomadic-asset-447711-a2",
+  "private_key_id": "994f3ed91514107dc2aed09d720f3e8224851b50",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCk3t3afXNa03zy\nzOHBGYOigvZpTSyuvl/B9ML0X8S3AALDJf1/8Msta7WRXIiJq+4rojcpUOJQ31qs\nNtUe7oSeYXs6jva8991peq1WyobRfA9mmr0PwpB8lkrCXLSv0jh1xdTsuS6wwlo4\nz4Q+Kv4x//U2HoIR7+0mejfreGaiPZevNHPtqufh/TiIbwcN87DZCRXJRsPHOUAq\nNsLBOBD8tkHc00z5Hb/1LLn6vOnzfDHmSur+vre446UMchHV3zOoeEpEm8RgKn94\nDUtPlLMXG9TjjDxhDTB1G1K3FFMEX6U6nEMU798UrTP3cWi7zbX40mT3BY6TIe6p\nSQ1Ts7RxAgMBAAECggEABSLdnc6QscCq637PKE6HgkrlgExOMGIakOvzctzU6lqO\nu3j118Qu9YrzIhnUNcMXGAw6qbKCX8Ca44iQb8vrHRVZBcRUaCNUpieTOi6fBUGs\nfSbO7axtsePrZPixtv8r5nII+xhIcxXq7PV8tNnEB4IQ0o8gFYz4QghGsQg+3POq\nHNHaoug8ZHeHLF0wwqSFP7FzfXZRpSCEIIgNoVMTvKS4ARtKkPAh9rBa4dGp2z2K\nzm3LWX6Phm8eiExlzQ/6SYbCMwSmsGMaZsJXBGWPJz+0FL9K4CKBDf8/91BdB83y\n+q1WIyQM8vtuFdqvuGfiM/phRuGQaqoe5mqlE9ouTQKBgQDYrf1oQqIgiWnHfi7c\ntpa+USpmrmeZVvbfVyw0jaLdUTcfSShDdMccR9MQTG5Erc9HVodJf4GtcRKRsTap\nXU/wLCTEEG3395Wjl59WjghIBtLj/B2k6OsqWniAsIE0R9d+smJ7p5/cw4nqWgJu\na528lQu/tlODFPUPSIfLlJemmwKBgQDCygxwrU6qay9irQAI7OpbSUwVLnTIHtIV\nIEHqMFFRS+TeY0XunQkpfP6Elgn5S0SWeMjiE8rZ7F655wxVWrQKv0cPyD0h6w13\ndVbJknSxWLw28HRy2CHf7F8dmwjGMQ+4x/d439oCBTBceJken1CfwT37kgIsEKT3\nDPgoEDP74wKBgQC/OMWTdoK4Li0BFpXqyOS97sl5tt7Mz5etQLRNaNXbdWotHRYA\nehWiGqzlDF6gE7gC4BUiwvlBhLF7jCaOT0BV189WjJ1QIdqYdh3zeANM9WC2PPA4\ncinfxdnk0GAmMGS4dls9f5AwdwzGmkrdAfJB1FN7DEAlRaCDrWHSQz+WkwKBgQCV\nC0jNhq5kk7MkS791FOKVitYedveAkKSq6Y3GBcaS8AFlcIx38cyq5CtThAKJr+AB\nStZatk5GxSgOEw5K2SZd+tIC73JnW5VoTG5luhxz/rO1TfOsVFhHIHP/ETt7etrO\nxqNC5/XGCfZhKx3uYnSsaI5myefDk9DGADR5YzyDhQKBgAfiZHwk58dY4I8KUm7K\nQC6LMxxwKPSzyrcOHwnePgY5rBtabLjjcvBUNOv6A9lGchidkl6zcqiSm57OCkO/\nAaao+Znh3qAcu7VE0Ri97bccd0Sb5+dUL1M40jCOO1wxwkal9prN5PlALAeYp7wH\nj3RM8HmoJetS00RK3g90jPfu\n-----END PRIVATE KEY-----\n",
+  "client_email": "multimodal-medical-agent@nomadic-asset-447711-a2.iam.gserviceaccount.com",
+  "client_id": "107866872936075832178",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/multimodal-medical-agent%40nomadic-asset-447711-a2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

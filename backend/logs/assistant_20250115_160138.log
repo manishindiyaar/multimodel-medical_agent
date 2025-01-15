@@ -1,0 +1,55 @@
+2025-01-15 16:01:38,464 - __mp_main__ - INFO - [multi.py:69] - Environment variables loaded from .env.local
+2025-01-15 16:01:38,464 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER: [SET]
+2025-01-15 16:01:38,464 - __mp_main__ - INFO - [multi.py:75] - Environment variable MAIL_DEFAULT_SENDER_NAME: [SET]
+2025-01-15 16:01:38,464 - __mp_main__ - INFO - [multi.py:75] - Environment variable AZURE_OPENAI_ENDPOINT: [SET]
+2025-01-15 16:01:38,465 - livekit.agents - INFO - [job_proc_lazy_main.py:72] - initializing job process
+2025-01-15 16:01:38,465 - livekit.agents - INFO - [job_proc_lazy_main.py:74] - job process initialized
+2025-01-15 16:01:38,465 - asyncio - DEBUG - [selector_events.py:54] - Using selector: KqueueSelector
+2025-01-15 16:01:38,466 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 16:01:38,466 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: entrypoint
+2025-01-15 16:01:38,466 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 16:01:38,466 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 16:01:38,466 - __mp_main__ - INFO - [multi.py:184] - Starting application entrypoint
+2025-01-15 16:01:38,467 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::server:133:livekit_ffi::server - initializing ffi server v0.12.5
+2025-01-15 16:01:38,467 - livekit - INFO - [_ffi_client.py:164] - livekit_ffi::cabi:36:livekit_ffi::cabi - initializing ffi server v0.12.5
+2025-01-15 16:01:38,468 - livekit - INFO - [_ffi_client.py:164] - livekit_api::signal_client::signal_stream:96:livekit_api::signal_client::signal_stream - connecting to wss://ai-telecall-w0oao1uz.livekit.cloud/rtc?sdk=python&protocol=15&auto_subscribe=1&adaptive_stream=0&version=0.19.1&access_token=...
+2025-01-15 16:01:38,698 - livekit - DEBUG - [_ffi_client.py:164] - rustls::anchors:150:rustls::anchors - add_parsable_certificates processed 153 valid and 0 invalid certs
+2025-01-15 16:01:38,698 - livekit - DEBUG - [_ffi_client.py:164] - tokio_tungstenite::tls::encryption::rustls:103:tokio_tungstenite::tls::encryption::rustls - Added 153/153 native root certificates (ignored 0)
+2025-01-15 16:01:38,698 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:73:rustls::client::hs - No cached session for DnsName("ai-telecall-w0oao1uz.livekit.cloud")
+2025-01-15 16:01:38,698 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:132:rustls::client::hs - Not resuming any session
+2025-01-15 16:01:38,790 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:615:rustls::client::hs - Using ciphersuite TLS13_AES_128_GCM_SHA256
+2025-01-15 16:01:38,791 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:142:rustls::client::tls13 - Not resuming
+2025-01-15 16:01:38,791 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::tls13:381:rustls::client::tls13 - TLS1.3 encrypted extensions: []
+2025-01-15 16:01:38,791 - livekit - DEBUG - [_ffi_client.py:164] - rustls::client::hs:472:rustls::client::hs - ALPN protocol is None
+2025-01-15 16:01:38,976 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::handshake::client:95:tungstenite::handshake::client - Client handshake done.
+2025-01-15 16:01:39,342 - __mp_main__ - INFO - [multi.py:186] - Connected to room: playground-CZjt-YvOt
+2025-01-15 16:01:39,342 - __mp_main__ - INFO - [multi.py:188] - Initializing chat context
+2025-01-15 16:01:39,343 - __mp_main__ - INFO - [multi.py:202] - Initializing Azure GPT
+2025-01-15 16:01:39,347 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 16:01:39,348 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 16:01:39,366 - __mp_main__ - INFO - [multi.py:210] - Initializing Google AI
+2025-01-15 16:01:39,392 - httpx._config - TRACE - [_utils.py:268] - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-01-15 16:01:39,393 - httpx._config - TRACE - [_utils.py:268] - load_verify_locations cafile=/opt/homebrew/lib/python3.11/site-packages/certifi/cacert.pem
+2025-01-15 16:01:39,477 - __mp_main__ - INFO - [multi.py:215] - Setting up Voice Assistant
+2025-01-15 16:01:39,539 - __mp_main__ - INFO - [multi.py:228] - Chat manager initialized
+2025-01-15 16:01:39,539 - __mp_main__ - INFO - [multi.py:282] - Starting assistant
+2025-01-15 16:01:40,541 - __mp_main__ - INFO - [multi.py:290] - Getting video track
+2025-01-15 16:01:40,542 - __mp_main__ - INFO - [multi.py:48] - ==================================================
+2025-01-15 16:01:40,542 - __mp_main__ - INFO - [multi.py:49] - ENTERING FUNCTION: get_video_track
+2025-01-15 16:01:40,542 - __mp_main__ - INFO - [multi.py:50] - Arguments: No positional args
+2025-01-15 16:01:40,542 - __mp_main__ - INFO - [multi.py:51] - Keyword Arguments: No keyword args
+2025-01-15 16:01:40,542 - __mp_main__ - INFO - [multi.py:166] - Searching for video track in room: playground-CZjt-YvOt
+2025-01-15 16:01:40,543 - livekit.agents - DEBUG - [http_context.py:20] - http_session(): creating a new httpclient ctx
+2025-01-15 16:01:56,175 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:666:tungstenite::protocol - Received close frame: Some(CloseFrame { code: Normal, reason: "" })
+2025-01-15 16:01:56,176 - livekit - DEBUG - [_ffi_client.py:164] - tungstenite::protocol:683:tungstenite::protocol - Replying to close with Frame { header: FrameHeader { is_final: true, rsv1: false, rsv2: false, rsv3: false, opcode: Control(Close), mask: None }, payload: [3, 232] }
+2025-01-15 16:01:56,178 - livekit - WARNING - [_ffi_client.py:164] - livekit::rtc_engine:436:livekit::rtc_engine - received session close: "signal client closed: \"stream closed\"" UnknownReason Resume
+2025-01-15 16:01:56,181 - livekit.agents - DEBUG - [job_proc_lazy_main.py:254] - shutting down job task
+2025-01-15 16:01:56,190 - livekit.agents - DEBUG - [http_context.py:45] - http_session(): closing the httpclient ctx
+2025-01-15 16:01:56,246 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='job_user_entrypoint' coro=<entrypoint() running at /Users/manish/Desktop/Medical Multimodal Agent/backend/multi.py:54> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_JobProc._run_job_task.<locals>.<lambda>() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:235, _JobProc._run_job_task.<locals>.log_exception() at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/ipc/job_proc_lazy_main.py:237]>
+2025-01-15 16:01:56,247 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: get_video_track
+2025-01-15 16:01:56,247 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 16:01:56,247 - __mp_main__ - INFO - [multi.py:62] - EXITING FUNCTION: entrypoint
+2025-01-15 16:01:56,247 - __mp_main__ - INFO - [multi.py:63] - ==================================================
+2025-01-15 16:01:56,247 - asyncio - ERROR - [base_events.py:1785] - Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<VoicePipelineAgent._main_task() running at /opt/homebrew/lib/python3.11/site-packages/livekit/agents/utils/log.py:16> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:908, Task.task_wakeup()]>>
